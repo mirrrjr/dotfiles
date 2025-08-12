@@ -4,7 +4,12 @@ return {
 	-- dependencies = { "nvim-tree/nvim-web-devicons" },
 	-- or if using mini.icons/mini.nvim
 	dependencies = { "echasnovski/mini.icons" },
-	opts = {},
+	opts = {
+		grep = {
+			rg_opts = "--hidden --column --follow --line-number --no-heading "
+				.. "--color=always --smart-case -g '!{node_modules,.zig-cache,.git,**/_build,deps,.elixir_ls,**/target,**/assets/node_modules,**/assets/vendor,**/.next,**/.vercel,**/build,**/out}'",
+		},
+	},
 	keys = {
 		{
 			"<leader>ff",

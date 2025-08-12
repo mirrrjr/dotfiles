@@ -19,9 +19,9 @@ end, { desc = "Format current file" })
 vim.keymap.set("n", "<C-q>", "<cmd> q <CR>", opts)
 
 -- delete single character without copying into register
-vim.keymap.set("n", "x", '"_x', opts)
-vim.keymap.set("n", "d", '"_d', opts)
-vim.keymap.set("v", "d", '"_d', opts)
+-- vim.keymap.set("n", "x", '"_x', opts)
+-- vim.keymap.set("n", "d", '"_d', opts)
+-- vim.keymap.set("v", "d", '"_d', opts)
 
 -- Change next match
 vim.keymap.set("n", "<leader>r", "*cgn", { desc = "Change next match of word under cursor" })
@@ -59,3 +59,21 @@ vim.keymap.set("n", "<leader>tp", ":tabp<CR>", opts) --  go to previous tab
 vim.keymap.set("n", "gl", function()
 	vim.diagnostic.open_float()
 end, { desc = "Open Diagnostics in Float" })
+
+-- Tabs (custom keys)
+vim.keymap.set("n", "<A-S-t>", ":tabnew<CR>", opts) -- Alt+Shift+T → new tab
+vim.keymap.set("n", "<Tab>", ":tabn<CR>", opts) -- Tab → next tab
+vim.keymap.set("n", "<S-Tab>", ":tabp<CR>", opts) -- Shift+Tab → previous tab
+vim.keymap.set("n", "<A-S-w>", ":tabclose<CR>", opts) -- Alt+Shift+W → close tab
+
+-- NvimTree Toggle
+vim.keymap.set("n", "<leader>e", function()
+	local api = require("nvim-tree.api")
+	api.tree.toggle()
+end, { desc = "Toggle NvimTree", noremap = true, silent = true })
+
+-- NvimTree Focus
+vim.keymap.set("n", "<leader>l", function()
+	local api = require("nvim-tree.api")
+	api.tree.focus()
+end, { desc = "Focus NvimTree", noremap = true, silent = true })

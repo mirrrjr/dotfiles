@@ -208,7 +208,7 @@ return {
 			-- clangd = {},
 			-- gopls = {},
 			-- pyright = {},
-			-- rust_analyzer = {},
+			rust_analyzer = {},
 			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 			--
 			-- Some languages (like typescript) have entire language plugins that can be useful:
@@ -252,7 +252,7 @@ return {
 			"prettier", -- Used for format html, css code
 			"pretty-php", -- Used to format PHP code
 			"blade-formatter", -- Used to format Blade templates
-			"alejandra", -- Nix code formatter
+			-- "alejandra", -- Nix code formatter
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
