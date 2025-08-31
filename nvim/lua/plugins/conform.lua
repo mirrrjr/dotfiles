@@ -8,8 +8,8 @@ return {
 			-- You can customize some of the format options for the filetype (:help conform.format)
 			rust = { "rustfmt" },
 			-- Conform will run the first available formatter
-			javascript = { "deno_fmt", "prettier", stop_after_first = true },
-			typescript = { "deno_fmt", "prettier", stop_after_first = true },
+			javascript = { "prettier" },
+			typescript = { "prettier" },
 			php = { "pretty-php" },
 			blade = { "blade-formatter" },
 			html = { "prettier" },

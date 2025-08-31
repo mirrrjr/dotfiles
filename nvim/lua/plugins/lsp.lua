@@ -205,6 +205,7 @@ return {
 			bashls = {},
 			marksman = {},
 			html = {},
+			cssls = {},
 			-- clangd = {},
 			-- gopls = {},
 			-- pyright = {},
@@ -231,6 +232,7 @@ return {
 				-- },
 			},
 			intelephense = {},
+			tailwindcss = {},
 		}
 
 		-- Ensure the servers and tools above are installed

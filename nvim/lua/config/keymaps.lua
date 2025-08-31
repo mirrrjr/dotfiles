@@ -19,9 +19,9 @@ end, { desc = "Format current file" })
 vim.keymap.set("n", "<C-q>", "<cmd> q <CR>", opts)
 
 -- delete single character without copying into register
--- vim.keymap.set("n", "x", '"_x', opts)
--- vim.keymap.set("n", "d", '"_d', opts)
--- vim.keymap.set("v", "d", '"_d', opts)
+vim.keymap.set("n", "x", '"_x', opts)
+vim.keymap.set("n", "d", '"_d', opts)
+vim.keymap.set("v", "d", '"_d', opts)
 
 -- Change next match
 vim.keymap.set("n", "<leader>r", "*cgn", { desc = "Change next match of word under cursor" })
