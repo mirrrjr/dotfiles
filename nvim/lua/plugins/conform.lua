@@ -16,6 +16,7 @@ return {
 			css = { "prettier" },
 			markdown = { "deno_fmt" },
 			-- nix = { "alejandra" },
+			twig = { "twig-cs-fixer" },
 		},
 		format_on_save = {
 			-- These options will be passed to conform.format()
