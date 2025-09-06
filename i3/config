@@ -59,16 +59,16 @@ tiling_drag modifier titlebar
 exec_always --no-startup-id sh ~/.config/polybar/lounch.sh
 
 # Change title background
-# client.focused          #000000 #000000 #ffffff #000000
-# client.focused_inactive #000000 #000000 #aaaaaa #000000
-# client.unfocused        #000000 #000000 #888888 #000000
-# client.urgent           #ff0000 #ff0000 #ffffff #ff0000
+client.focused          #000000 #000000 #ffffff #000000
+client.focused_inactive #000000 #000000 #aaaaaa #000000
+client.unfocused        #000000 #000000 #888888 #000000
+client.urgent           #ff0000 #ff0000 #ffffff #ff0000
 
 # Delete all borders & title bars
 for_window [all] border pixel 0
 
 # background
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wps/emire.png
+exec_always --no-startup-id feh --bg-scale ~/Pictures/wps/starry-sky.png
 
 # start a terminal
 set $term /home/mirrr/.local/kitty.app/bin/kitty
@@ -235,6 +235,6 @@ bindsym $mod+r mode "resize"
 gaps inner 2
 
 # Ekran chetidagi bo'shliq (outer gaps)
-gaps outer 2
+gaps outer 1
 
 # smart_gaps on
