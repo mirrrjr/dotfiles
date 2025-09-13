@@ -1,0 +1,17 @@
+[
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save",
+        "when": "editorTextFocus && vim.mode == 'Insert'"
+    },
+    {
+        "key": "tab",
+        "command": "tab",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    }
+]

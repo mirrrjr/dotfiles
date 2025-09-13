@@ -14,15 +14,17 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.defaultFormatter": "vscode.typescript-language-features",
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // if you would like to enable blade format
     // "deno.enable": false,
     // "deno.lint": false,
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features", // denoland.vscode-deno
+        "editor.defaultFormatter": "vscode.typescript-language-features" // denoland.vscode-deno
     },
     "workbench.layoutControl.type": "menu",
     "workbench.editor.limit.enabled": true,
@@ -34,8 +36,8 @@
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": false,
     "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
-    "editor.scrollbar.vertical": "hidden",
+    "workbench.statusBar.visible": true,
+    "editor.scrollbar.vertical": "auto",
     "editor.scrollbar.horizontal": "hidden",
     "editor.stickyScroll.enabled": false,
     "workbench.layoutControl.enabled": false,
@@ -46,14 +48,7 @@
         "editor.tabSize"
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
-    // auto change theme
-    "vscode-auto-light-dark-theme.autoToggle": true,
-    "vscode-auto-light-dark-theme.lightTheme": "GHIBLI - (Lynx theme)",
-    "vscode-auto-light-dark-theme.darkTheme": "DARK (Lynx theme)",
-    "vscode-auto-light-dark-theme.toggleSetting": "custom",
-    "vscode-auto-light-dark-theme.lightStartTime": 6,
-    "vscode-auto-light-dark-theme.darkStartTime": 20,
-    "workbench.colorTheme": "DARK (Lynx theme)",
+    "workbench.colorTheme": "1. DARK (Lynx Theme Pro)",
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -68,4 +63,84 @@
     },
     "explorer.confirmPasteNative": false,
     "git.autofetch": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+    "workbench.iconTheme": "catppuccin noctis icons",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-s>"
+            ],
+            "after": [
+                "<Esc>",
+                ":",
+                "w",
+                "<CR>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<C-s>"
+            ],
+            "after": [
+                ":",
+                "w",
+                "<CR>"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-p>": false,
+        "<C-w>": false
+    },
+    // To improve performance
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    }
 }

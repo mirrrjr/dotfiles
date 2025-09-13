@@ -191,6 +191,11 @@ return {
 		--  So, we create new capabilities with nvim cmp, and then broadcast that to the servers.
 		local capabilities = vim.lsp.protocol.make_client_capabilities()
 		-- capabilities = vim.tbl_deep_extend('force', capabilities, require('cmp_nvim_lsp').default_capabilities())
+		capabilities = vim.tbl_deep_extend(
+			"force",
+			capabilities,
+			require("blink.cmp").get_lsp_capabilities() -- Blink uchun capabilities
+		)
 
 		-- Enable the following language servers
 		--  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
@@ -206,31 +211,10 @@ return {
 			marksman = {},
 			html = {},
 			cssls = {},
-			-- clangd = {},
-			-- gopls = {},
-			-- pyright = {},
 			rust_analyzer = {},
-			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
-			--
-			-- Some languages (like typescript) have entire language plugins that can be useful:
-			--    https://github.com/pmizio/typescript-tools.nvim
-			--
-			-- But for many setups, the LSP (`ts_ls`) will work just fine
-			ts_ls = {},
-			lua_ls = {
-				-- cmd = { ... },
-				-- filetypes = { ... },
-				-- capabilities = {},
-				-- settings = {
-				--   Lua = {
-				--     completion = {
-				--       callSnippet = 'Replace',
-				--     },
-				--     -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
-				--     -- diagnostics = { disable = { 'missing-fields' } },
-				--   },
-				-- },
-			},
+			vtsls = {},
+			eslint = {},
+			lua_ls = {},
 			intelephense = {},
 			tailwindcss = {},
 			twiggy_language_server = {},

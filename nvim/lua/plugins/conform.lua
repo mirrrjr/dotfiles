@@ -14,9 +14,15 @@ return {
 			blade = { "blade-formatter" },
 			html = { "prettier" },
 			css = { "prettier" },
-			markdown = { "deno_fmt" },
+			markdown = { "prettier" },
 			-- nix = { "alejandra" },
 			twig = { "twig-cs-fixer" },
+		},
+		formatters = {
+			prettier = {
+				-- these options will be passed to Prettier CLI
+				prepend_args = { "--tab-width", "4", "--use-tabs", "false" },
+			},
 		},
 		format_on_save = {
 			-- These options will be passed to conform.format()
