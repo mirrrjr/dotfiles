@@ -2,6 +2,7 @@
     "editor.lineNumbers": "relative",
     "zenMode.showTabs": "none",
     "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
     "editor.stickyScroll.enabled": false,
     "editor.linkedEditing": true,
     "editor.suggest.insertMode": "replace",
