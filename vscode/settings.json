@@ -1,6 +1,13 @@
 {
+    "editor.lineNumbers": "relative",
+    "zenMode.showTabs": "none",
+    "zenMode.hideLineNumbers": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.suggest.insertMode": "replace",
     "update.mode": "none",
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true,
     "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "toggle",
     "editor.fontFamily": "FantasqueSansM Nerd Font",
@@ -11,6 +18,7 @@
     "editor.cursorStyle": "line",
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "none",
+    "workbench.settings.editor": "json",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
@@ -35,11 +43,10 @@
     "explorer.openEditors.visible": 9,
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": false,
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "bottom",
     "workbench.statusBar.visible": true,
-    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.horizontal": "hidden",
-    "editor.stickyScroll.enabled": false,
     "workbench.layoutControl.enabled": false,
     "editor.mouseWheelZoom": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -66,81 +73,39 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "catppuccin-noctis-icons.hidesExplorerArrows": false,
     "workbench.iconTheme": "catppuccin noctis icons",
+    "projectManager.git.baseFolders": [
+        "$home/dev"
+    ],
+    "projectManager.sortList": "Recent",
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        },
-        {
-            "before": [
-                "<C-s>"
-            ],
-            "after": [
-                "<Esc>",
-                ":",
-                "w",
-                "<CR>"
-            ]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "lineBreakInsert"
-            ],
-            "silent": true
-        },
-        {
-            "before": [
-                "<C-s>"
-            ],
-            "after": [
-                ":",
-                "w",
-                "<CR>"
-            ]
-        }
-    ],
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    "vim.highlightedyank.textColor": "white",
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false,
         "<C-p>": false,
-        "<C-w>": false
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-n>": false,
+        "<C-S-l>": false
     },
     // To improve performance
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
-    }
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.adddMissingImports": "always"
+    },
+    "git.confirmSync": false,
+    "workbench.sideBar.location": "right"
 }
