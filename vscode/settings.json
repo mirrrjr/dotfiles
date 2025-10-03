@@ -13,6 +13,7 @@
     "window.menuBarVisibility": "toggle",
     "editor.fontFamily": "FantasqueSansM Nerd Font",
     "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
+    "terminal.integrated.defaultLocation": "view",
     "editor.fontSize": 14,
     "explorer.confirmDragAndDrop": false,
     "editor.fontLigatures": true,
@@ -42,10 +43,10 @@
     "workbench.editor.showTabs": "none",
     "files.autoSave": "off",
     "explorer.openEditors.visible": 9,
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "editor.renderControlCharacters": false,
     "workbench.activityBar.location": "bottom",
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.horizontal": "hidden",
     "workbench.layoutControl.enabled": false,
@@ -56,7 +57,7 @@
         "editor.tabSize"
     ],
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.colorTheme": "1. DARK (Lynx Theme Pro)",
+    "workbench.colorTheme": "Carbon React Color Theme - Maya Black",
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -68,6 +69,9 @@
     },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "explorer.confirmPasteNative": false,
     "git.autofetch": true,
@@ -95,18 +99,27 @@
         "<C-w>": false,
         "<C-b>": false,
         "<C-n>": false,
-        "<C-S-l>": false
+        "<C-S-l>": false,
     },
     // To improve performance
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "editor.codeActionsOnSave": {
         "source.adddMissingImports": "always"
     },
     "git.confirmSync": false,
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.commandCenter.enabled": false,
+    "editor.accessibilitySupport": "off",
+    // Custome styles
+    "vscode_custom_css.imports": [
+        "file:///home/mirrr/Documents/custome-vscode.css"
+    ]
 }
