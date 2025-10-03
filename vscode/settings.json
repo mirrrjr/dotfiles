@@ -120,6 +120,7 @@
     "editor.accessibilitySupport": "off",
     // Custome styles
     "vscode_custom_css.imports": [
-        "file:///home/mirrr/Documents/custome-vscode.css"
+        "file:///${userHome}/.config/vscode-style.css",
+        "file:///${userHome}/.config/vscode-script.js"
     ]
 }
