@@ -99,7 +99,7 @@
         "<C-w>": false,
         "<C-b>": false,
         "<C-n>": false,
-        "<C-S-l>": false,
+        "<C-S-l>": false
     },
     // To improve performance
     "extensions.experimental.affinity": {
