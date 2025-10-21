@@ -3,7 +3,7 @@
 set -e
 
 # === Sozlamalar ===
-NERD_FONT_NAME="FantasqueSansMono"
+NERD_FONT_NAME="JetBrainsMono"
 NERD_FONT_URL="https://github.com/ryanoasis/nerd-fonts/releases/latest/download/${NERD_FONT_NAME}.zip"
 EMOJI_FONT_URL="https://noto-website-2.storage.googleapis.com/pkgs/NotoColorEmoji-unhinted.zip"
 FONT_DIR="$HOME/.local/share/fonts"
