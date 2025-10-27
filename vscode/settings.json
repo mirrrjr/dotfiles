@@ -11,8 +11,8 @@
     "extensions.ignoreRecommendations": true,
     "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "toggle",
-    "editor.fontFamily": "FantasqueSansM Nerd Font",
-    "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
     "terminal.integrated.defaultLocation": "view",
     "editor.fontSize": 14,
     "explorer.confirmDragAndDrop": false,
@@ -120,7 +120,7 @@
     "editor.accessibilitySupport": "off",
     // Custome styles
     "vscode_custom_css.imports": [
-        "file:///${userHome}/.config/vscode-style.css",
-        "file:///${userHome}/.config/vscode-script.js"
+        "file:///home/mirrr/.config/vscode/vscode-style.css",
+        "file:///home/mirrr/.config/vscode/vscode-script.js"
     ]
 }
