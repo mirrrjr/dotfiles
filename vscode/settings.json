@@ -26,15 +26,13 @@
     "editor.formatOnPaste": true,
     "editor.tabSize": 4,
     "editor.defaultFormatter": "vscode.typescript-language-features",
-    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
-    "blade.format.enable": true, // if you would like to enable blade format
-    // "deno.enable": false,
-    // "deno.lint": false,
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features" // denoland.vscode-deno
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "workbench.layoutControl.type": "menu",
     "workbench.editor.limit.enabled": true,
@@ -101,7 +99,6 @@
         "<C-n>": false,
         "<C-S-l>": false
     },
-    // To improve performance
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
@@ -117,10 +114,9 @@
     "workbench.navigationControl.enabled": false,
     "workbench.editor.editorActionsLocation": "hidden",
     "chat.commandCenter.enabled": false,
-    "editor.accessibilitySupport": "off",
-    // Custome styles
-    "vscode_custom_css.imports": [
-        "file:///home/mirrr/.config/vscode/vscode-style.css",
-        "file:///home/mirrr/.config/vscode/vscode-script.js"
-    ]
+    "editor.accessibilitySupport": "off"
+    // "vscode_custom_css.imports": [
+    //     "file:///home/mirrr/.config/vscode/vscode-style.css",
+    //     "file:///home/mirrr/.config/vscode/vscode-script.js"
+    // ]
 }

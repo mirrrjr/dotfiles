@@ -1,0 +1,13 @@
+# v ~/.local/share/applications/phpstorm.desktop
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PhpStorm
+Icon=/home/mirrr/apps/PhpStorm-252.27397.112/bin/phpstorm.png
+Exec=/home/mirrr/apps/PhpStorm-252.27397.112/bin/phpstorm.sh
+StartupWMClass=jetbrains-phpstorm
+Comment=The PHP IDE by JetBrains
+Categories=Development;IDE;
+Terminal=false
+
