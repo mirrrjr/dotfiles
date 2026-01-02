@@ -168,3 +168,7 @@ export PATH=/opt/cmake/bin:$PATH
 
 export OPENSSL_DIR=/usr/lib/x86_64-linux-gnu/openssl
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig
+
+
+# starship
+eval "$(starship init zsh)"

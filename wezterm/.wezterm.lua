@@ -1,16 +1,20 @@
--- Pull in the wezterm API
 local wezterm = require("wezterm")
 
--- This will hold the configuration.
 local config = wezterm.config_builder()
 
--- This is where you actually apply your config choices.
+config.keys = {
+	{
+		key = "Enter",
+		mods = "ALT",
+		action = wezterm.action.DisableDefaultAssignment,
+	},
+	{
+		key = "f",
+		mods = "SHIFT|CTRL",
+		action = wezterm.action.ToggleFullScreen,
+	},
+}
 
--- For example, changing the initial geometry for new windows:
-config.initial_cols = 120
-config.initial_rows = 28
-
--- or, changing the font size and color scheme.
 config.font_size = 10
 config.font = wezterm.font("JetBrains Mono", { weight = "Regular", italic = false })
 config.color_scheme = "Firefly Traditional"
@@ -18,11 +22,21 @@ config.window_decorations = "NONE"
 config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 config.window_padding = {
-	left = 1,
-	top = 1,
-	right = 1,
+	left = 0,
+	top = 0,
+	right = 0,
 	bottom = 0,
 }
+
+config.line_height = 0.90
+config.cell_width = 1.0
+
+config.font_size = 10.0
+
+config.window_decorations = "RESIZE"
+config.enable_tab_bar = false
+
+config.underline_position = -2
 
 -- Finally, return the configuration to wezterm:
 return config
