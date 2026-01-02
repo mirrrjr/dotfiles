@@ -1,0 +1,49 @@
+theme = "tokyonight"
+
+[editor]
+line-number = "relative"
+mouse = true
+middle-click-paste = true
+cursorline = false
+cursorcolumn = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[keys.normal]
+C-s = ":w!"
+C-w = ":buffer-close"
+C-a = ":reload-all"
+C-v = [":clipboard-paste-before"]
+C-r = ":fmt"
+
+[keys.insert]
+C-s = [":w!", "normal_mode"]
+C-w = [":buffer-close", "normal_mode"]
+C-v = [":clipboard-paste-before"]

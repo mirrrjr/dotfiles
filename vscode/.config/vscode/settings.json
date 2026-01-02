@@ -1,0 +1,122 @@
+{
+    "editor.lineNumbers": "relative",
+    "zenMode.showTabs": "none",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.suggest.insertMode": "replace",
+    "update.mode": "none",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.defaultLocation": "view",
+    "editor.fontSize": 14,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.settings.editor": "json",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.layoutControl.type": "menu",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.showTabs": "none",
+    "files.autoSave": "off",
+    "explorer.openEditors.visible": 9,
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.statusBar.visible": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.tabSize"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Carbon React Color Theme - Maya Black",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "lkrms.pretty-php"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmPasteNative": false,
+    "git.autofetch": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+    "workbench.iconTheme": "catppuccin noctis icons",
+    "projectManager.git.baseFolders": [
+        "$home/dev"
+    ],
+    "projectManager.sortList": "Recent",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    "vim.highlightedyank.textColor": "white",
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-p>": false,
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-n>": false,
+        "<C-S-l>": false
+    },
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "editor.codeActionsOnSave": {
+        "source.adddMissingImports": "always"
+    },
+    "git.confirmSync": false,
+    "workbench.sideBar.location": "right",
+    "git.enableSmartCommit": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.navigationControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.commandCenter.enabled": false,
+    "editor.accessibilitySupport": "off"
+    // "vscode_custom_css.imports": [
+    //     "file:///home/mirrr/.config/vscode/vscode-style.css",
+    //     "file:///home/mirrr/.config/vscode/vscode-script.js"
+    // ]
+}

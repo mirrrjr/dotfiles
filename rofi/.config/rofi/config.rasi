@@ -1,0 +1,7 @@
+@theme "~/.config/rofi/themes/gruvbox-dark-hard.rasi"
+
+configuration {
+  font: "FantasqueSansM Nerd Font Mono 12";
+  show-icons: true;
+}
+
