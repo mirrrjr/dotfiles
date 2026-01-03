@@ -48,7 +48,7 @@ client.urgent           #ff0000 #ff0000 #ffffff #ff0000
 for_window [all] border pixel 0
 
 # background
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wps/gruvbox_tux.png
+exec_always --no-startup-id feh --bg-scale ~/Pictures/wps/Tranquility.png
 
 # start a terminal
 set $term /var/lib/flatpak/exports/bin/org.wezfurlong.wezterm
