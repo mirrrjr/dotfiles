@@ -2,6 +2,8 @@
 
 Personal dotfiles repository containing configuration files for various Linux applications and tools.
 
+<img src="./assets/i3config.jpg" alt="Linux Mint neofetch" align="center">
+
 ## Overview
 
 This repository contains configuration files for a Linux development environment, including window managers, terminal emulators, text editors, shell configurations, and various productivity tools.
@@ -172,7 +174,7 @@ brew install stow
 
 5. Install required dependencies:
    - Oh My Zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-   - Starship: Follow instructions at https://starship.rs/guide/#%F0%9F%9A%80-installation
+   - Starship: Follow instructions at <https://starship.rs/guide/#%F0%9F%9A%80-installation>
    - Tmux plugins: Press `Prefix + I` in tmux after installation
    - LazyVim: Follow LazyVim installation guide
 
