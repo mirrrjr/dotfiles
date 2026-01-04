@@ -18,6 +18,11 @@ $dotnet\
 $java\
 $kotlin\
 $nodejs\
+$rust\
+$golang\
+$php\
+$haskell\
+$python\
 [ ](fg:color_bg4 bg:color_bg5)\
 $cmd_duration\
 [ ](fg:color_bg5)\
@@ -92,57 +97,57 @@ style_user = "bg:color_bg1 fg:color_white"
 # Code symbols
 [c]
 format = '[$symbol]($style)'
-style = "bg:color_bg4 fg:#6295CB"
-symbol = " "
+style = "bg:color_bg4 fg:#03599C"
+symbol = "  "
 
 [dotnet]
 format = '[$symbol]($style)'
-style = "bg:color_bg4 fg:#1180C3"
-symbol = " "
+style = "bg:color_bg4 fg:#FFFFFF"
+symbol = "  "
 
 [java]
 format = '[$symbol]($style)'
-style = "bg:color_bg4 fg:#F7901E"
-symbol = " "
+style = "bg:color_bg4 fg:#F89820"
+symbol = "  "
 
 [kotlin]
 format = '[$symbol]($style)'
-style = "bg:color_bg4 fg:#C017E4"
-symbol = " "
+style = "bg:color_bg4 fg:#F88909"
+symbol = "  "
 
 [nodejs]
 style = "bg:color_bg4 fg:#5FA04E"
 format = '[$symbol($version)]($style)'
-symbol = " "
+symbol = "  "
 
 [rust]
-symbol = ""
-style = "bg:color_bg4 fg:#5FA04E"
+symbol = "  "
+style = "bg:color_bg4 fg:#F74B00"
 format = '[$symbol($version)]($style)'
 
 [golang]
-symbol = ""
-style = "bg:color_bg4 fg:#5FA04E"
+symbol = "  "
+style = "bg:color_bg4 fg:#FFFFFF"
 format = '[$symbol($version)]($style)'
 
 [php]
-style = "bg:color_bg4 fg:#5FA04E"
+style = "bg:color_bg4 fg:#FFFFFF"
 format = '[$symbol($version)]($style)'
-symbol = ""
+symbol = "  "
 
 [haskell]
-symbol = ""
-style = "bg:color_bg4 fg:#5FA04E"
+symbol = "  "
+style = "bg:color_bg4 fg:#FFFFFF"
 format = '[$symbol($version)]($style)'
 
 [python]
-symbol = ""
-style = "bg:color_bg4 fg:#5FA04E"
+symbol = "  "
+style = "bg:color_bg4 fg:#FFD43B"
 format = '[$symbol($version)]($style)'
 
 [docker_context]
-symbol = ""
-style = "bg:color_bg4 fg:#5FA04E"
+symbol = "  "
+style = "bg:color_bg4 fg:#FFFFFF"
 format = '[$symbol($version)]($style)'
 
 # OS Symbols
