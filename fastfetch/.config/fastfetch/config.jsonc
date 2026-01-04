@@ -1,7 +1,11 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "/home/mirrrjr/.dotfiles/fastfetch/.config/fastfetch/ascii.txt"
+        "source": "/home/mirrrjr/.dotfiles/fastfetch/.config/fastfetch/ascii.txt",
+        "padding": {
+            "top": 3,
+            "right": 6
+        }
     },
     "display": {
         "separator": "  "
