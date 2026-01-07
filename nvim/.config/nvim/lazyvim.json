@@ -4,14 +4,8 @@
     "lazyvim.plugins.extras.coding.yanky",
     "lazyvim.plugins.extras.lang.angular",
     "lazyvim.plugins.extras.lang.clangd",
-    "lazyvim.plugins.extras.lang.dart",
-    "lazyvim.plugins.extras.lang.docker",
     "lazyvim.plugins.extras.lang.git",
-    "lazyvim.plugins.extras.lang.go",
-    "lazyvim.plugins.extras.lang.haskell",
-    "lazyvim.plugins.extras.lang.java",
     "lazyvim.plugins.extras.lang.json",
-    "lazyvim.plugins.extras.lang.kotlin",
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.nix",
     "lazyvim.plugins.extras.lang.php",
@@ -23,8 +17,7 @@
     "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.lang.vue",
-    "lazyvim.plugins.extras.lang.yaml",
-    "lazyvim.plugins.extras.lang.zig"
+    "lazyvim.plugins.extras.lang.yaml"
   ],
   "install_version": 8,
   "news": {

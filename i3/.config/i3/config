@@ -1,7 +1,7 @@
 set $mod Mod4
 
 # font
-font pango:JetBrainsMono Nerd Font 8
+font pango:JetBrainsMono Nerd Font 9
 
 # Oldingi picom jarayonlarini to'xtatish
 # exec_always --no-startup-id pkill picom
@@ -57,11 +57,11 @@ for_window [all] border pixel 0
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wps/Tranquility.png
 
 # start a terminal
-set $term /var/lib/flatpak/exports/bin/org.wezfurlong.wezterm
-bindsym $mod+Return exec --no-startup-id $term
+# set $term /var/lib/flatpak/exports/bin/org.wezfurlong.wezterm
+bindsym $mod+Return exec --no-startup-id wezterm
 
 # browser
-bindsym $mod+b exec /home/mirrrjr/apps/zen/zen-bin
+bindsym $mod+b exec /var/lib/flatpak/exports/bin/app.zen_browser.zen
 
 # screenshot
 bindsym Print exec maim "/home/$USER/Pictures/$(date).jpg"

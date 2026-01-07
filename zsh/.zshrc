@@ -114,14 +114,18 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # Custom aliases
-alias apu='sudo apt update'
-alias apuu='sudo apt upgrade'
-alias apin='sudo apt install'
-alias sr='apt search'
+alias l='eza -lha --group-directories-first'
+alias ll='eza -lh --group-directories-first'
+
+alias apin='paru -S'
+alias apu='paru -Syu'
+alias sr='paru -Ss'
+alias ar='paru -R'
 
 alias v='nvim'
 alias vi='nvim'
 alias r='ranger'
+alias y='yazi'
 alias ff='fastfetch'
 
 alias pa='php artisan'
@@ -139,7 +143,7 @@ alias smysql='sudo systemctl start mysql'
 alias smdb='sudo systemctl start mariadb'
 alias spsql='sudo systemctl start postgresql'
 
-alias dtf='cd ~/.dotfiles'
+alias df='cd ~/.dotfiles'
 
 alias wezterm='flatpak run org.wezfurlong.wezterm'
 
@@ -169,6 +173,7 @@ export PATH=/opt/cmake/bin:$PATH
 export OPENSSL_DIR=/usr/lib/x86_64-linux-gnu/openssl
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig
 
+. "$HOME/.cargo/env"
 
 # starship
 eval "$(starship init zsh)"
