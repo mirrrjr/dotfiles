@@ -145,7 +145,7 @@ alias spsql='sudo systemctl start postgresql'
 
 alias df='cd ~/.dotfiles'
 
-alias wezterm='flatpak run org.wezfurlong.wezterm'
+# alias wezterm='flatpak run org.wezfurlong.wezterm'
 
 # tmux
 # if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
