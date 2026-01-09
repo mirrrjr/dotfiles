@@ -4,10 +4,10 @@ set $mod Mod4
 font pango:JetBrainsMono Nerd Font 9
 
 # Oldingi picom jarayonlarini to'xtatish
-# exec_always --no-startup-id pkill picom
+exec_always --no-startup-id pkill picom
 
 # Picom ni ishga tushirish
-# exec_always --no-startup-id picom --backend glx --config ~/.config/picom/picom.conf
+exec_always --no-startup-id picom --backend glx --config ~/.config/picom/picom.conf
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
