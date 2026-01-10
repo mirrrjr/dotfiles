@@ -58,7 +58,7 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/wps/Tranquility.png
 
 # start a terminal
 # set $term /var/lib/flatpak/exports/bin/org.wezfurlong.wezterm
-bindsym $mod+Return exec --no-startup-id wezterm
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # browser
 bindsym $mod+b exec /var/lib/flatpak/exports/bin/app.zen_browser.zen
@@ -74,7 +74,7 @@ bindsym Ctrl+$mod+Print exec maim --window $(xdotool getactivewindow) | xclip -s
 bindsym Ctrl+Shift+Print exec maim --select | xclip -selection clipboard -t image/png
 
 # thunar
-bindsym $mod+t exec --no-startup-id nemo
+bindsym $mod+t exec --no-startup-id nautilus
 
 # kill focused window
 bindsym $mod+q kill

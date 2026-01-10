@@ -148,10 +148,10 @@ alias df='cd ~/.dotfiles'
 # alias wezterm='flatpak run org.wezfurlong.wezterm'
 
 # tmux
-# if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-#     # Mavjud sessiyaga ulanish yoki yangi yaratish
-#     tmux attach-session -t default || tmux new-session -s default
-# fi
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    # Mavjud sessiyaga ulanish yoki yangi yaratish
+    tmux attach-session -t default || tmux new-session -s default
+fi
 
 # NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
