@@ -67,7 +67,7 @@ default_border pixel 0
 default_floating_border pixel 0
 
 # Background (swaybg yoki swaybg bilan)
-output eDP-1 bg ~/Pictures/wps/gruvbox_tux.png fill
+output eDP-1 bg ~/Pictures/wps/Tranquility.png fill
 
 # Terminal
 bindsym $mod+Return exec alacritty

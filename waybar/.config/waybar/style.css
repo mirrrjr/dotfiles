@@ -9,7 +9,7 @@
 window#waybar {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: #2b2d30;
+  background-color: rgba(0, 0, 0, 0);
   min-height: 20px;
 }
 
