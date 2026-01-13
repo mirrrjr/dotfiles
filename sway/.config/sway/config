@@ -19,6 +19,8 @@ exec swayidle -w \
 # NetworkManager applet
 exec nm-applet --indicator
 
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
 # Volume controls (PulseAudio/PipeWire)
 set $refresh_status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +10%
