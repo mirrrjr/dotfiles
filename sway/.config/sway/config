@@ -71,7 +71,7 @@ default_border pixel 0
 default_floating_border pixel 0
 
 # Background (swaybg yoki swaybg bilan)
-output eDP-1 bg ~/Pictures/wps/Tranquility.png fill
+output eDP-1 bg ~/.dotfiles/assets/wps/Tranquility.png fill
 
 # Terminal
 bindsym $mod+Return exec alacritty
@@ -208,6 +208,15 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+mode "special" {
+    bindsym c exec wl-color-picker clipboard; mode "default"
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+z mode "special"
 
 # Gaps
 gaps inner 2
