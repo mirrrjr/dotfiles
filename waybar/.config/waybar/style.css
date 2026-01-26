@@ -54,7 +54,7 @@ window#waybar {
   background-color: #3a3d40;
 }
 #window {
-  padding: 4px;
+  padding-left: 8px;
   margin: 0.4rem 0.25rem;
   border-radius: 6px;
   background-color: #3a3d40;
