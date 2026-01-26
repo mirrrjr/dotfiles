@@ -47,12 +47,18 @@ window#waybar {
 #cpu,
 #tray,
 #memory,
-#window,
 #mpris {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
   border-radius: 6px;
   background-color: #3a3d40;
+}
+#window {
+  padding: 4px;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #3a3d40;
+
 }
 
 #mpris.playing {

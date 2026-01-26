@@ -2,7 +2,7 @@
     "layer": "bottom",
     "position": "top",
     // "height": 25,
-    "spacing": 2,
+    "spacing": 0,
     "exclusive": true,
     "gtk-layer-shell": true,
     "passthrough": false,
@@ -42,10 +42,17 @@
         "on-click": "activate"
     },
     
-    "sway/window": {
-        "format": "{}",
+    // "sway/window": {
+    //     "format": "{}",
+    //     "max-length": 80,
+    //     "tooltip": true
+    // },
+	"sway/window": {
+        "format": "",
         "max-length": 80,
-        "tooltip": true
+        "tooltip": true,
+        "icon": true,
+        "icon-size": 16
     },
 
 	"sway/language": {

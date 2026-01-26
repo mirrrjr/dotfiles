@@ -178,3 +178,13 @@ export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig
 # starship
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+
+# bun completions
+[ -s "/home/mirrrjr/.bun/_bun" ] && source "/home/mirrrjr/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# opencode
+export PATH=/home/mirrrjr/.opencode/bin:$PATH
