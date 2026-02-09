@@ -129,6 +129,14 @@ alias y='yazi'
 alias ff='fastfetch'
 
 alias pa='php artisan'
+alias ci='composer install'
+alias pakg='php artisan key:generate'
+alias pam='php aristan migrate'
+alias pamf='php artisan migrate:fresh'
+alias pamfs='php artisan migrate:fresh --seed'
+alias pads='php artisan db:seed'
+alias crd='composer run dev'
+alias pas='php artisan serve'
 
 alias gs='git status'
 alias ga='git add .'
@@ -154,8 +162,10 @@ alias df='cd ~/.dotfiles'
 # fi
 
 # NVM
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 
 # NVIM
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
@@ -188,3 +198,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # opencode
 export PATH=/home/mirrrjr/.opencode/bin:$PATH
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/home/mirrrjr/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/mirrrjr/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
