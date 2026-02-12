@@ -137,6 +137,7 @@ alias pamfs='php artisan migrate:fresh --seed'
 alias pads='php artisan db:seed'
 alias crd='composer run dev'
 alias pas='php artisan serve'
+alias cr='composer require'
 
 alias gs='git status'
 alias ga='git add .'
@@ -201,3 +202,11 @@ export PATH=/home/mirrrjr/.opencode/bin:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export PATH="/home/mirrrjr/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/mirrrjr/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+
+# pnpm
+export PNPM_HOME="/home/mirrrjr/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
