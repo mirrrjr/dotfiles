@@ -19,8 +19,8 @@ config.font_size = 10
 config.font = wezterm.font("JetBrains Mono", { weight = "Regular", italic = false })
 config.color_scheme = "Firefly Traditional"
 config.window_decorations = "NONE"
-config.use_fancy_tab_bar = false
-config.hide_tab_bar_if_only_one_tab = true
+config.use_fancy_tab_bar = true
+config.hide_tab_bar_if_only_one_tab = false
 config.window_padding = {
 	left = 0,
 	top = 0,

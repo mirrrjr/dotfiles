@@ -139,6 +139,8 @@ alias crd='composer run dev'
 alias pas='php artisan serve'
 alias cr='composer require'
 
+alias sail='./vendor/bin/sail'
+
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m'
