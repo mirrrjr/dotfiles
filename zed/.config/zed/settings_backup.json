@@ -1,0 +1,33 @@
+{
+  "features": {
+    "edit_prediction_provider": "copilot",
+  },
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "oswe-vscode-prime",
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 16,
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "toolbar": {
+    "breadcrumbs": false,
+    "agent_review": false,
+    "code_actions": false,
+    "quick_actions": false,
+    "selections_menu": false,
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light",
+    "dark": "Darker Horizon",
+  },
+}

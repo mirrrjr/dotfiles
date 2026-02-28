@@ -1,12 +1,8 @@
 {
-  "features": {
-    "edit_prediction_provider": "copilot"
-  },
   "agent": {
-    "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "oswe-vscode-prime",
+      "model": "claude-haiku-4.5",
     },
     "favorite_models": [],
     "model_parameters": [],
@@ -15,8 +11,25 @@
     "trust_all_worktrees": true,
   },
   "vim_mode": true,
+  // "vim": {
+  //   "cursor_shape": {
+  //     "insert": "bar",
+  //     "normal": "block",
+  //     "visual": "hollow",
+  //     "replace": "underline",
+  //   },
+  //   "default_mode": "normal",
+  //   "highlight_on_yank_duration": 500,
+  //   "toggle_relative_line_numbers": true,
+  //   "use_smartcase_find": true,
+  //   "use_system_clipboard": "always",
+  // },
+  "tab_bar": {
+    "show": true,
+  },
+  "relative_line_numbers": "enabled",
   "ui_font_size": 14,
-  "buffer_font_size": 13,
+  "buffer_font_size": 16,
   "ui_font_family": "JetBrainsMono Nerd Font Mono",
   "toolbar": {
     "breadcrumbs": false,
@@ -24,6 +37,21 @@
     "code_actions": false,
     "quick_actions": false,
     "selections_menu": false,
+  },
+  // "status_bar": {
+  //   "active_encoding_button": "enabled",
+  //   "active_language_button": false,
+  //   "cursor_position_button": false,
+  //   "experimental.show": false,
+  //   "line_endings_button": false,
+  // },
+  "scrollbar": {
+    "cursors": false,
+    "axes": {
+      "horizontal": false,
+      "vertical": false,
+    },
+    "show": "never",
   },
   "theme": {
     "mode": "system",
