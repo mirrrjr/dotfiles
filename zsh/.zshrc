@@ -188,9 +188,9 @@ export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig
 
 . "$HOME/.cargo/env"
 
-# starship
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
+
+# GO
+export PATH=$PATH:/usr/local/go/bin
 
 # bun completions
 [ -s "/home/mirrrjr/.bun/_bun" ] && source "/home/mirrrjr/.bun/_bun"
@@ -212,3 +212,10 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+
+
+
+# starship
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"

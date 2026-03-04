@@ -1,61 +1,78 @@
 {
-  "agent": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-haiku-4.5",
+    "disable_ai": true,
+    "agent": {
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-haiku-4.5",
+        },
+        "inline_alternatives": [
+            {
+                "provider": "zed.dev",
+                "model": "gpt-4-mini",
+            },
+            {
+                "provider": "zed.dev",
+                "model": "gemini-3-flash",
+            },
+        ],
     },
-    "favorite_models": [],
-    "model_parameters": [],
-  },
-  "session": {
-    "trust_all_worktrees": true,
-  },
-  "vim_mode": true,
-  // "vim": {
-  //   "cursor_shape": {
-  //     "insert": "bar",
-  //     "normal": "block",
-  //     "visual": "hollow",
-  //     "replace": "underline",
-  //   },
-  //   "default_mode": "normal",
-  //   "highlight_on_yank_duration": 500,
-  //   "toggle_relative_line_numbers": true,
-  //   "use_smartcase_find": true,
-  //   "use_system_clipboard": "always",
-  // },
-  "tab_bar": {
-    "show": true,
-  },
-  "relative_line_numbers": "enabled",
-  "ui_font_size": 14,
-  "buffer_font_size": 16,
-  "ui_font_family": "JetBrainsMono Nerd Font Mono",
-  "toolbar": {
-    "breadcrumbs": false,
-    "agent_review": false,
-    "code_actions": false,
-    "quick_actions": false,
-    "selections_menu": false,
-  },
-  // "status_bar": {
-  //   "active_encoding_button": "enabled",
-  //   "active_language_button": false,
-  //   "cursor_position_button": false,
-  //   "experimental.show": false,
-  //   "line_endings_button": false,
-  // },
-  "scrollbar": {
-    "cursors": false,
-    "axes": {
-      "horizontal": false,
-      "vertical": false,
+    "session": {
+        "trust_all_worktrees": true,
     },
-    "show": "never",
-  },
-  "theme": {
-    "mode": "system",
-    "light": "Gruvbox Light",
-    "dark": "Darker Horizon",
-  },
+    "vim_mode": true,
+    "relative_line_numbers": "enabled",
+    "ui_font_size": 14,
+    "buffer_font_size": 16,
+    "ui_font_family": "JetBrainsMono Nerd Font Mono",
+    "toolbar": {
+        "breadcrumbs": false,
+        "agent_review": false,
+        "code_actions": false,
+        "quick_actions": false,
+        "selections_menu": false,
+    },
+    // "status_bar": {
+    //   "active_encoding_button": "enabled",
+    //   "active_language_button": false,
+    //   "cursor_position_button": false,
+    //   "experimental.show": false,
+    //   "line_endings_button": false,
+    // },
+    "scrollbar": {
+        "cursors": false,
+        "axes": {
+            "horizontal": false,
+            "vertical": false,
+        },
+        "show": "never",
+    },
+    "theme": {
+        "mode": "system",
+        "light": "Gruvbox Light",
+        "dark": "Catppuccin Espresso (Blur)",
+    },
+
+    "tab_size": 4,
+
+    // Languages
+    "languages": {
+        "TypeScript": {
+            "tab_size": 4,
+            "prettier": {
+                "allowed": false,
+            },
+        },
+        "JavaScript": {
+            "tab_size": 4,
+            "prettier": {
+                "allowed": false,
+            },
+        },
+        "PHP": {
+            "tab_size": 4,
+        },
+        "Go": {
+            "tab_size": 4,
+        },
+    },
 }

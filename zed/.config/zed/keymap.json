@@ -16,18 +16,19 @@
     "bindings": {
       "ctrl-w": "pane::CloseActiveItem",
       "ctrl-b": "workspace::ToggleLeftDock",
+      "alt-h": "workspace::ActivatePaneLeft",
+      "alt-l": "workspace::ActivatePaneRight",
+      "alt-k": "workspace::ActivatePaneUp",
+      "alt-j": "workspace::ActivatePaneDown",
     },
   },
+
   {
-    "context": "Editor && vim_mode == insert",
+    "context": "ProjectPanel",
     "bindings": {
-      "ctrl-s": ["workspace::SendKeystrokes", "escape ctrl-s"],
-    },
-  },
-  {
-    "context": "Editor && vim_mode == normal",
-    "bindings": {
-      "ctrl-s": ["workspace::SendKeystrokes", ":w enter"],
+      "%": "project_panel::NewFile",
+      // "d": "project_panel::Trash",
+      "alt-l": "workspace::ActivatePaneRight",
     },
   },
 ]
