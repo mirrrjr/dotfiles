@@ -1,5 +1,22 @@
 {
     // ── Appearance ──────────────────────────────────────────────────────────────
+    "lsp": {
+        "vtsls": {
+            "settings": {
+                "typescript": {
+                    "updateImportsOnFileMove": {
+                        "enabled": "always"
+                    }
+                },
+                "javascript": {
+                    "updateImportsOnFileMove": {
+                        "enabled": "always"
+                    }
+                }
+            },
+            "enable_lsp_tasks": true
+        }
+    },
     "theme": {
         "mode": "system",
         "light": "Catppuccin Espresso (Blur) [Light]",
@@ -7,9 +24,9 @@
     },
     "theme_overrides": {
         "Catppuccin Espresso (Blur)": {
-            "editor.background": "#000",
             "background": "#000",
             "title_bar.background": "#000",
+            "editor.background": "#000",
             "panel.overlay_hover": "#333",
             "syntax": {
                 "comment": {
