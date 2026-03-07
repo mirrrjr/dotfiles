@@ -153,7 +153,9 @@
     // ============================================
     // PROJECT MANAGER
     // ============================================
-    "projectManager.git.baseFolders": ["/home/mirrrjr/dev"],
+    "projectManager.git.baseFolders": [
+        "/home/mirrrjr/dev"
+    ],
     "projectManager.sortList": "Recent",
     // ============================================
     // DATABASE CLIENT
@@ -166,12 +168,13 @@
     // ============================================
     // OTHER
     // ============================================
-    "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
+    "workbench.settings.applyToAllProfiles": [
+        "editor.tabSize"
+    ],
     "redhat.telemetry.enabled": true,
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
     },
-    "workbench.productIconTheme": "material-product-icons",
     "laravel-pint.enable": false,
     "tailwind-fold.autoFold": true,
     "tailwind-fold.foldStyle": "ALL",

@@ -1,0 +1,32 @@
+vscode/.config/Code/Backups
+vscode/.config/Code/blob_storage
+vscode/.config/Code/Cache
+vscode/.config/Code/CachedConfigurations
+vscode/.config/Code/CachedData
+vscode/.config/Code/CachedProfilesData
+vscode/.config/Code/Code Cache
+vscode/.config/Code/Crashpad
+vscode/.config/Code/DawnGraphiteCache
+vscode/.config/Code/DawnWebGPUCache
+vscode/.config/Code/Dictionaries
+vscode/.config/Code/GPUCache
+vscode/.config/Code/Local Storage
+vscode/.config/Code/logs
+vscode/.config/Code/Service Worker
+vscode/.config/Code/Session Storage
+vscode/.config/Code/Shared Dictionary
+vscode/.config/Code/WebStorage
+vscode/.config/Code/Cookies
+vscode/.config/Code/Cookies-journal
+vscode/.config/Code/DIPS
+vscode/.config/Code/machineid
+vscode/.config/Code/Network Persistent State
+vscode/.config/Code/Preferences
+vscode/.config/Code/SharedStorage
+vscode/.config/Code/TransportSecurity
+vscode/.config/Code/Trust Tokens
+vscode/.config/Code/Trust Tokens-journal
+vscode/.config/Code/User/globalStorage
+vscode/.config/Code/User/History
+vscode/.config/Code/User/snippets
+vscode/.config/Code/User/workspaceStorage
