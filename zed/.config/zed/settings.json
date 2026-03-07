@@ -1,43 +1,26 @@
 {
     // ── Appearance ──────────────────────────────────────────────────────────────
-    "lsp": {
-        "vtsls": {
-            "settings": {
-                "typescript": {
-                    "updateImportsOnFileMove": {
-                        "enabled": "always"
-                    }
-                },
-                "javascript": {
-                    "updateImportsOnFileMove": {
-                        "enabled": "always"
-                    }
-                }
-            },
-            "enable_lsp_tasks": true
-        }
-    },
     "theme": {
         "mode": "system",
         "light": "Catppuccin Espresso (Blur) [Light]",
-        "dark": "Catppuccin Espresso (Blur)",
+        "dark": "Darker Horizon Bold",
     },
-    "theme_overrides": {
-        "Catppuccin Espresso (Blur)": {
-            "background": "#000",
-            "title_bar.background": "#000",
-            "editor.background": "#000",
-            "panel.overlay_hover": "#333",
-            "syntax": {
-                "comment": {
-                    "font_style": "italic",
-                },
-                "comment.doc": {
-                    "font_style": "italic",
-                },
-            },
-        },
-    },
+    // "theme_overrides": {
+    //     "Catppuccin Espresso (Blur)": {
+    //         "background": "#000",
+    //         "title_bar.background": "#000",
+    //         "editor.background": "#000",
+    //         "panel.overlay_hover": "#333",
+    //         "syntax": {
+    //             "comment": {
+    //                 "font_style": "italic",
+    //             },
+    //             "comment.doc": {
+    //                 "font_style": "italic",
+    //             },
+    //         },
+    //     },
+    // },
     "icon_theme": "Catppuccin Latte",
     "ui_font_family": "JetBrainsMono Nerd Font Propo",
     "ui_font_size": 16,
@@ -57,11 +40,11 @@
     "seed_search_query_from_cursor": "never",
     "current_line_highlight": "none",
     "show_whitespaces": "none",
-    // "autosave": {
-    //     "after_delay": {
-    //         "milliseconds": 1000,
-    //     },
-    // },
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 1000,
+        },
+    },
     "git": {
         "git_gutter": "hide",
         "inline_blame": {
@@ -164,6 +147,23 @@
         },
         "Rust": {
             "tab_size": 4,
+        },
+    },
+    "lsp": {
+        "vtsls": {
+            "settings": {
+                "typescript": {
+                    "updateImportsOnFileMove": {
+                        "enabled": "always",
+                    },
+                },
+                "javascript": {
+                    "updateImportsOnFileMove": {
+                        "enabled": "always",
+                    },
+                },
+            },
+            "enable_lsp_tasks": true,
         },
     },
 }

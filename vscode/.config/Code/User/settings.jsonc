@@ -1,0 +1,236 @@
+{
+    // ============================================
+    // WINDOW & LAYOUT
+    // ============================================
+    "window.titleBarStyle": "custom",
+    "window.title": "${folderName}",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+    "workbench.settings.editor": "json",
+    "workbench.layoutControl.type": "menu",
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.sideBar.location": "right",
+    "workbench.navigationControl.enabled": false,
+    "workbench.colorTheme": "Dark Horizon",
+    "workbench.preferredHighContrastColorTheme": "Carbon React Color Theme - Maya Black",
+    // ============================================
+    // EDITOR - GENERAL
+    // ============================================
+    "editor.fontSize": 16,
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "editor.cursorStyle": "line",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.accessibilitySupport": "off",
+    "editor.renderControlCharacters": false,
+    // ============================================
+    // EDITOR - SCROLLBAR
+    // ============================================
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    // ============================================
+    // EDITOR - TABS & FILES
+    // ============================================
+    "editor.tabSize": 4,
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "files.autoSave": "off",
+    "explorer.openEditors.visible": 9,
+    // ============================================
+    // EDITOR - FORMATTING
+    // ============================================
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.codeActionsOnSave": {
+        "source.adddMissingImports": "always"
+    },
+    // ============================================
+    // LANGUAGE-SPECIFIC FORMATTERS
+    // ============================================
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    // ============================================
+    // EMMET
+    // ============================================
+    "emmet.triggerExpansionOnTab": true,
+    // ============================================
+    // TERMINAL
+    // ============================================
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    // ============================================
+    // EXPLORER & FILE MANAGEMENT
+    // ============================================
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false,
+    // ============================================
+    // GIT
+    // ============================================
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // ============================================
+    // JAVASCRIPT & TYPESCRIPT
+    // ============================================
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // ============================================
+    // EXTENSIONS
+    // ============================================
+    "update.mode": "none",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    // ============================================
+    // VIM
+    // ============================================
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.foldfix": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    "vim.highlightedyank.textColor": "white",
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-p>": false,
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-n>": false,
+        "<C-S-l>": false
+    },
+    // ============================================
+    // ZEN MODE
+    // ============================================
+    "zenMode.showTabs": "none",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    // ============================================
+    // PROJECT MANAGER
+    // ============================================
+    "projectManager.git.baseFolders": ["/home/mirrrjr/dev"],
+    "projectManager.sortList": "Recent",
+    // ============================================
+    // DATABASE CLIENT
+    // ============================================
+    "database-client.autoSync": true,
+    // ============================================
+    // CHAT
+    // ============================================
+    "chat.commandCenter.enabled": false,
+    // ============================================
+    // OTHER
+    // ============================================
+    "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
+    "redhat.telemetry.enabled": true,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "workbench.productIconTheme": "material-product-icons",
+    "laravel-pint.enable": false,
+    "tailwind-fold.autoFold": true,
+    "tailwind-fold.foldStyle": "ALL",
+    "tailwind-fold.unfoldIfLineSelected": true,
+    "tailwind-fold.showTailwindImage": true,
+    "tailwind-fold.foldedText": "...",
+    "tailwind-fold.foldedTextColor": "#7cdbfe7e",
+    "tailwind-fold.foldedTextBackgroundColor": "#52b7ee09",
+    "tailwind-fold.unfoldedTextOpacity": 1,
+    "tailwind-fold.supportedLanguages": [
+        "html",
+        "typescriptreact",
+        "javascriptreact",
+        "typescript",
+        "javascript",
+        "vue-html",
+        "vue",
+        "php",
+        "markdown",
+        "coffeescript",
+        "svelte",
+        "astro",
+        "erb"
+    ],
+    "tailwind-fold.foldLengthThreshold": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "workbench.statusBar.visible": false,
+    "php.format.rules.arrayInitializersAlignKeyValuePairs": false,
+    "workbench.settings.showAISearchToggle": false,
+    "chat.disableAIFeatures": true,
+    "intelliphp.inlineSuggestionsEnabled": false,
+    // ============================================
+    // CUSTOM CSS (COMMENTED OUT)
+    // ============================================
+    // "vscode_custom_css.imports": [
+    //     "file:///home/mirrr/.config/vscode/vscode-style.css",
+    //     "file:///home/mirrr/.config/vscode/vscode-script.js"
+    // ]
+    // ============================================
+    // BREADCRUMBS (COMMENTED OUT)
+    // ============================================
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "off"
+}
