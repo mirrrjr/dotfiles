@@ -33,35 +33,38 @@ vscode/.config/Code/User/snippets
 vscode/.config/Code/User/workspaceStorage
 
 # VS Codium
-vscode/.config/VSCodium/Backups
-vscode/.config/VSCodium/blob_storage
-vscode/.config/VSCodium/Cache
-vscode/.config/VSCodium/CachedConfigurations
-vscode/.config/VSCodium/CachedData
-vscode/.config/VSCodium/CachedProfilesData
-vscode/.config/VSCodium/Code Cache
-vscode/.config/VSCodium/Crashpad
-vscode/.config/VSCodium/DawnGraphiteCache
-vscode/.config/VSCodium/DawnWebGPUCache
-vscode/.config/VSCodium/Dictionaries
-vscode/.config/VSCodium/GPUCache
-vscode/.config/VSCodium/Local Storage
-vscode/.config/VSCodium/logs
-vscode/.config/VSCodium/Service Worker
-vscode/.config/VSCodium/Session Storage
-vscode/.config/VSCodium/Shared Dictionary
-vscode/.config/VSCodium/WebStorage
-vscode/.config/VSCodium/Cookies
-vscode/.config/VSCodium/Cookies-journal
-vscode/.config/VSCodium/DIPS
-vscode/.config/VSCodium/machineid
-vscode/.config/VSCodium/Network Persistent State
-vscode/.config/VSCodium/Preferences
-vscode/.config/VSCodium/SharedStorage
-vscode/.config/VSCodium/TransportSecurity
-vscode/.config/VSCodium/Trust Tokens
-vscode/.config/VSCodium/Trust Tokens-journal
-vscode/.config/VSCodium/User/globalStorage
-vscode/.config/VSCodium/User/History
-vscode/.config/VSCodium/User/snippets
-vscode/.config/VSCodium/User/workspaceStorage
+vscodium/.config/VSCodium/Backups
+vscodium/.config/VSCodium/blob_storage
+vscodium/.config/VSCodium/Cache
+vscodium/.config/VSCodium/CachedConfigurations
+vscodium/.config/VSCodium/CachedData
+vscodium/.config/VSCodium/CachedProfilesData
+vscodium/.config/VSCodium/Code Cache
+vscodium/.config/VSCodium/Crashpad
+vscodium/.config/VSCodium/DawnGraphiteCache
+vscodium/.config/VSCodium/DawnWebGPUCache
+vscodium/.config/VSCodium/Dictionaries
+vscodium/.config/VSCodium/GPUCache
+vscodium/.config/VSCodium/Local Storage
+vscodium/.config/VSCodium/logs
+vscodium/.config/VSCodium/Service Worker
+vscodium/.config/VSCodium/Session Storage
+vscodium/.config/VSCodium/Shared Dictionary
+vscodium/.config/VSCodium/WebStorage
+vscodium/.config/VSCodium/Cookies
+vscodium/.config/VSCodium/Cookies-journal
+vscodium/.config/VSCodium/code.lock
+vscodium/.config/VSCodium/DIPS
+vscodium/.config/VSCodium/DIPS-wal
+vscodium/.config/VSCodium/machineid
+vscodium/.config/VSCodium/Network Persistent State
+vscodium/.config/VSCodium/Preferences
+vscodium/.config/VSCodium/SharedStorage
+vscodium/.config/VSCodium/SharedStorage-wal
+vscodium/.config/VSCodium/TransportSecurity
+vscodium/.config/VSCodium/Trust Tokens
+vscodium/.config/VSCodium/Trust Tokens-journal
+vscodium/.config/VSCodium/User/globalStorage
+vscodium/.config/VSCodium/User/History
+vscodium/.config/VSCodium/User/snippets
+vscodium/.config/VSCodium/User/workspaceStorage
