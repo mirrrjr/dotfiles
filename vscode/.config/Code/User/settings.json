@@ -66,7 +66,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -218,7 +218,6 @@
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
     },
-    "workbench.statusBar.visible": false,
     "php.format.rules.arrayInitializersAlignKeyValuePairs": false,
     "workbench.settings.showAISearchToggle": false,
     "chat.disableAIFeatures": true,

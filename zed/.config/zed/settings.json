@@ -40,11 +40,11 @@
     "seed_search_query_from_cursor": "never",
     "current_line_highlight": "none",
     "show_whitespaces": "none",
-    "autosave": {
-        "after_delay": {
-            "milliseconds": 1000,
-        },
-    },
+    // "autosave": {
+    //     "after_delay": {
+    //         "milliseconds": 1000,
+    //     },
+    // },
     "git": {
         "git_gutter": "hide",
         "inline_blame": {
@@ -147,6 +147,11 @@
         },
         "Rust": {
             "tab_size": 4,
+        },
+        "Markdown": {
+            "format_on_save": "off",
+            "colorize_brackets": true,
+            "formatter": "language_server",
         },
     },
     "lsp": {
