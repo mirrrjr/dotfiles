@@ -1,0 +1,16 @@
+{
+    "com.github.no-faff.ulauncher-calculate-anything": {
+        "id": "com.github.no-faff.ulauncher-calculate-anything",
+        "url": "https://github.com/no-faff/ulauncher-calculate-anything",
+        "updated_at": "2026-04-09T17:58:41.661322",
+        "last_commit": "197ca4ff1ec8288515e90898b0d9c3ece9d593e0",
+        "last_commit_time": "2026-03-31T18:49:48"
+    },
+    "com.github.elx4vier.ufinder": {
+        "id": "com.github.elx4vier.ufinder",
+        "url": "https://github.com/elx4vier/UFinder",
+        "updated_at": "2026-04-09T18:05:43.283358",
+        "last_commit": "3764d11d0ad620e32b9d7259785efc499fc5324a",
+        "last_commit_time": "2026-03-30T18:26:52"
+    }
+}

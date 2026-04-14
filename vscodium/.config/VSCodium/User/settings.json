@@ -115,11 +115,6 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   // ============================================
-  // JAVASCRIPT & TYPESCRIPT
-  // ============================================
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  // ============================================
   // EXTENSIONS
   // ============================================
   "update.mode": "none",
@@ -159,7 +154,7 @@
   // ============================================
   // PROJECT MANAGER
   // ============================================
-  "projectManager.git.baseFolders": ["/home/mirrrjr/dev"],
+  "projectManager.git.baseFolders": ["/home/mirrrjr/Documents/code/"],
   "projectManager.sortList": "Recent",
   // ============================================
   // DATABASE CLIENT
@@ -231,4 +226,9 @@
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.symbolPath": "off",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "git.openRepositoryInParentFolders": "always",
+  "[twig]": {
+    "editor.defaultFormatter": "mblode.twig-language-2",
+  },
 }

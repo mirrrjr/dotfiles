@@ -1,9 +1,9 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+#if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+#fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -131,6 +131,8 @@ alias ar='paru -R'
 
 alias v='nvim'
 alias vi='nvim'
+alias cod='codium'
+alias hx='helix'
 alias r='ranger'
 alias y='yazi'
 alias ff='fastfetch'
@@ -145,6 +147,8 @@ alias pads='php artisan db:seed'
 alias crd='composer run dev'
 alias pas='php artisan serve'
 alias cr='composer require'
+alias bc='bin/console'
+alias bcmc='bin/console make:controller'
 
 alias sail='./vendor/bin/sail'
 
@@ -181,7 +185,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # Laravel
-export PATH="/home/mirrrjr/.config/composer/vendor/bin:$PATH"
+#export PATH="/home/mirrrjr/.config/composer/vendor/bin:$PATH"
 export PATH=$HOME/.local/bin:$PATH
 
 # Lua
@@ -224,6 +228,6 @@ esac
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # starship
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
