@@ -194,6 +194,7 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 # Laravel
 #export PATH="/home/mirrrjr/.config/composer/vendor/bin:$PATH"
 export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.config/composer/vendor/bin/:$PATH
 
 # Lua
 export PATH="/home/mirrrjr/Downloads/lua-language-server/bin:$PATH"
