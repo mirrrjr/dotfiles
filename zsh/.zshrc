@@ -131,6 +131,7 @@ alias ll='eza -lh --group-directories-first'
 
 alias apin='sudo apt install'
 alias apu='sudo apt update'
+alias apuu='sudo apt upgrade'
 alias sr='apt search'
 alias ar='sudo apt remove'
 
