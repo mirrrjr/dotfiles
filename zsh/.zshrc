@@ -124,15 +124,21 @@ export VISUAL=nvim
 alias l='eza -lha --group-directories-first'
 alias ll='eza -lh --group-directories-first'
 
-alias apin='paru -S'
-alias apu='paru -Syu'
-alias sr='paru -Ss'
-alias ar='paru -R'
+# alias apin='paru -S'
+# alias apu='paru -Syu'
+# alias sr='paru -Ss'
+# alias ar='paru -R'
+
+alias apin='sudo apt install'
+alias apu='sudo apt update'
+alias sr='apt search'
+alias ar='sudo apt remove'
+
 
 alias v='nvim'
 alias vi='nvim'
 alias cod='codium'
-alias hx='helix'
+alias hx='hx'
 alias r='ranger'
 alias y='yazi'
 alias ff='fastfetch'
@@ -170,10 +176,10 @@ alias df='cd ~/.dotfiles'
 # alias wezterm='flatpak run org.wezfurlong.wezterm'
 
 # tmux
-# if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-#     # Mavjud sessiyaga ulanish yoki yangi yaratish
-#     tmux attach-session -t default || tmux new-session -s default
-# fi
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    # Mavjud sessiyaga ulanish yoki yangi yaratish
+    tmux attach-session -t default || tmux new-session -s default
+fi
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
