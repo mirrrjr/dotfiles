@@ -4,6 +4,7 @@ vscode/.config/Code/blob_storage
 vscode/.config/Code/Cache
 vscode/.config/Code/CachedConfigurations
 vscode/.config/Code/CachedData
+vscode/.config/Code/CachedExtensionVSIXs
 vscode/.config/Code/CachedProfilesData
 vscode/.config/Code/Code Cache
 vscode/.config/Code/Crashpad
@@ -27,6 +28,10 @@ vscode/.config/Code/SharedStorage
 vscode/.config/Code/TransportSecurity
 vscode/.config/Code/Trust Tokens
 vscode/.config/Code/Trust Tokens-journal
+vscode/.config/Code/User/code.lock
+vscode/.config/Code/User/DIPS-wal
+vscode/.config/Code/User/languagepacks.json
+vscode/.config/Code/User/SharedStorage-wal
 vscode/.config/Code/User/globalStorage
 vscode/.config/Code/User/History
 vscode/.config/Code/User/snippets
