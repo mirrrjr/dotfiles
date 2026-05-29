@@ -36,6 +36,11 @@ vscode/.config/Code/User/globalStorage
 vscode/.config/Code/User/History
 vscode/.config/Code/User/snippets
 vscode/.config/Code/User/workspaceStorage
+vscode/.config/Code/User/profiles
+vscode/.config/Code/User/prompts
+vscode/.config/Code/User/sync
+vscode/.config/Code/User/agent-sessions.code-workspace
+vscode/.config/Code/User/chatLanguageModels.json
 
 # VS Codium
 vscodium/.config/VSCodium/Backups
