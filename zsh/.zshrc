@@ -124,16 +124,16 @@ export VISUAL=nvim
 alias l='eza -lha --group-directories-first'
 alias ll='eza -lh --group-directories-first'
 
-# alias apin='paru -S'
-# alias apu='paru -Syu'
-# alias sr='paru -Ss'
-# alias ar='paru -R'
+alias apin='paru -S'
+alias apu='paru -Syu'
+alias sr='paru -Ss'
+alias ar='paru -R'
 
-alias apin='sudo apt install'
-alias apu='sudo apt update'
-alias apuu='sudo apt upgrade'
-alias sr='apt search'
-alias ar='sudo apt remove'
+#alias apin='sudo apt install'
+#alias apu='sudo apt update'
+#alias apuu='sudo apt upgrade'
+#alias sr='apt search'
+#alias ar='sudo apt remove'
 
 
 alias v='nvim'
@@ -172,7 +172,7 @@ alias smysql='sudo systemctl start mysql'
 alias smdb='sudo systemctl start mariadb'
 alias spsql='sudo systemctl start postgresql'
 
-alias df='cd ~/.dotfiles'
+alias dfs='cd ~/.dotfiles'
 
 # alias wezterm='flatpak run org.wezfurlong.wezterm'
 
@@ -242,4 +242,4 @@ eval "$(zoxide init zsh)"
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+# source <(ng completion script)

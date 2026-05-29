@@ -1,9 +1,26 @@
 {
     // ── Appearance ──────────────────────────────────────────────────────────────
+    "terminal": {
+        "font_size": 16.0,
+        "font_family": "JetBrainsMono Nerd Font Mono"
+    },
+    "base_keymap": "VSCode",
+    "sticky_scroll": {
+        "enabled": false
+    },
+    "mouse_wheel_zoom": true,
+    "minimap": {
+        "show": "never"
+    },
+    "max_tabs": 10,
+    "autosave": "off",
+    "auto_indent_on_paste": true,
+    "linked_edits": true,
+    "use_on_type_format": true,
     "theme": {
-        "mode": "system",
-        "light": "Catppuccin Espresso (Blur) [Light]",
-        "dark": "Darker Horizon Bold",
+        "mode": "dark",
+        "light": "Ayu Light",
+        "dark": "Ayu Dark",
     },
     // "theme_overrides": {
     //     "Catppuccin Espresso (Blur)": {
@@ -21,12 +38,16 @@
     //         },
     //     },
     // },
-    "icon_theme": "Catppuccin Latte",
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Catppuccin Latte",
+        "dark": "Catppuccin Latte"
+    },
     "ui_font_family": "JetBrainsMono Nerd Font Propo",
     "ui_font_size": 16,
 
     // ── Editor ───────────────────────────────────────────────────────────────────
-    "buffer_font_family": "JetBrainsMono Nerd Font Propo",
+    "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_size": 16,
     "tab_size": 4,
     "vim_mode": true,
@@ -63,6 +84,7 @@
         "quick_actions": false,
     },
     "tab_bar": {
+        "show_tab_bar_buttons": false,
         "show": false,
         "show_nav_history_buttons": false,
     },
@@ -127,6 +149,9 @@
     // ── Languages ────────────────────────────────────────────────────────────────
     "languages": {
         "TypeScript": {
+            "auto_indent_on_paste": true,
+            "linked_edits": true,
+            "use_on_type_format": true,
             "tab_size": 4,
             "formatter": "language_server",
             "prettier": {
@@ -134,21 +159,37 @@
             },
         },
         "JavaScript": {
+            "auto_indent_on_paste": true,
+            "linked_edits": true,
+            "use_on_type_format": true,
             "tab_size": 4,
             "prettier": {
                 "allowed": false,
             },
         },
         "PHP": {
+            "auto_indent_on_paste": true,
+            "linked_edits": true,
+            "use_on_type_format": true,
             "tab_size": 4,
         },
         "Go": {
+            "auto_indent_on_paste": true,
+            "linked_edits": true,
+            "use_on_type_format": true,
             "tab_size": 4,
         },
         "Rust": {
+            "auto_indent_on_paste": true,
+            "linked_edits": true,
+            "use_on_type_format": true,
             "tab_size": 4,
         },
         "Markdown": {
+            "auto_indent_on_paste": true,
+            "linked_edits": true,
+            "use_on_type_format": true,
+            "tab_size": 4,
             "format_on_save": "off",
             "colorize_brackets": true,
             "formatter": "language_server",

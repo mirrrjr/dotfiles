@@ -1,15 +1,15 @@
 -- Paketlarni yuklash
 vim.pack.add({
-	{ src = "https://github.com/bluz71/vim-moonfly-colors", name = "moonfly" },
-	{ src = "https://github.com/folke/noice.nvim" },
-	{ src = "https://github.com/rcarriga/nvim-notify" },
-	{ src = "https://github.com/nvim-mini/mini.statusline" },
-	{ src = "https://github.com/MunifTanjim/nui.nvim" },
-	{ src = "https://github.com/neovim/nvim-lspconfig" },
-	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
-	{ src = "https://github.com/stevearc/oil.nvim" },
-	{ src = "https://github.com/nvim-mini/mini.pick" },
-	{ src = "https://github.com/stevearc/conform.nvim" },
+		{ src = "https://github.com/bluz71/vim-moonfly-colors", name = "moonfly" },
+		{ src = "https://github.com/folke/noice.nvim" },
+		{ src = "https://github.com/rcarriga/nvim-notify" },
+		{ src = "https://github.com/nvim-mini/mini.statusline" },
+		{ src = "https://github.com/MunifTanjim/nui.nvim" },
+		{ src = "https://github.com/neovim/nvim-lspconfig" },
+		{ src = "https://github.com/chomosuke/typst-preview.nvim" },
+		{ src = "https://github.com/stevearc/oil.nvim" },
+		{ src = "https://github.com/nvim-mini/mini.pick" },
+		{ src = "https://github.com/stevearc/conform.nvim" },
 })
 
 -- Color theme
