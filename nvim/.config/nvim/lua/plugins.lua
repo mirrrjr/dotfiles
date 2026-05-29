@@ -9,6 +9,7 @@ vim.pack.add({
 	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
 	{ src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/nvim-mini/mini.pick" },
+	{ src = "https://github.com/stevearc/conform.nvim" },
 })
 
 -- Color theme
@@ -33,4 +34,22 @@ require("oil").setup({
 	columns = { "icon" },
 	view_options = { show_hidden = true },
 	-- Qolgan barcha oil sozlamalarini shu yerga paste qilishingiz mumkin
+})
+
+require("conform").setup({
+		formatters_by_ft = {
+				javascript      = { "prettier" },
+				typescript      = { "prettier" },
+				javascriptreact = { "prettier" },
+				typescriptreact = { "prettier" },
+				php             = { "pint" },
+				html            = { "prettier" },
+				css             = { "prettier" },
+				json            = { "prettier" },
+		},
+		format_on_save = {
+				async = false,
+				timeout_ms = 500,
+				lsp_fallback = true,
+		},
 })

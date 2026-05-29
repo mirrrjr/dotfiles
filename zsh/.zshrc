@@ -227,8 +227,8 @@ export PHP_INI_SCAN_DIR="/home/mirrrjr/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 # pnpm
 export PNPM_HOME="/home/mirrrjr/.local/share/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
 esac
 # pnpm end
 
@@ -239,3 +239,7 @@ esac
 # eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
