@@ -1,0 +1,29 @@
+/* GIMP theme.css
+ *
+ * This file is written on GIMP startup and on every theme change.
+ * It is NOT supposed to be edited manually. Edit your personal
+ * gimp.css file instead (/home/mirjr/.config/GIMP/3.2/gimp.css).
+ */
+
+@import url("file:///usr/share/gimp/3.0/themes/Default/gimp-dark.css");
+@import url("file:///etc/gimp/3.0/gimp.css");
+
+* { -gtk-icon-style: symbolic; }
+
+/* prefer-dark-theme */
+
+* { -GimpToolPalette-tool-icon-size: small-toolbar; }
+* { -GimpDock-tool-icon-size: small-toolbar; }
+* { -GimpViewableDialog-tool-icon-size: small-toolbar; }
+* { -GimpDockbook-tab-icon-size: small-toolbar; }
+* { -GimpColorNotebook-tab-icon-size: small-toolbar; }
+* { -GimpPrefsBox-tab-icon-size: small-toolbar; }
+* { -GimpEditor-button-icon-size: small-toolbar; }
+* { -GimpDisplayShell-button-icon-size: small-toolbar; }
+* { -GimpFgBgEditor-tool-icon-size: small-toolbar; }
+toolpalette button { padding: 1px; }
+button, tab { padding: 0px; }
+paned separator { padding: 1px; }
+* { font-size: 0.90000000000000002rem; }
+
+/* end of theme.css */

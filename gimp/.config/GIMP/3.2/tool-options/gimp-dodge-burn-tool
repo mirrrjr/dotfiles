@@ -1,0 +1,9 @@
+# GIMP gimp-dodge-burn-tool options
+
+(brush "Wilber")
+(dynamics "Pressure Size")
+(palette "Color History")
+(brush-size 800)
+(brush-spacing 1)
+
+# end of gimp-dodge-burn-tool options

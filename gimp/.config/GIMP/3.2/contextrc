@@ -1,0 +1,14 @@
+# GIMP user context
+
+(tool "gimp-move-tool")
+(paint-info "gimp-paintbrush")
+(brush "Wilber")
+(dynamics "Pressure Size")
+(mybrush "100% Opaque")
+(pattern "Leopard")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Monospace")
+(tool-preset "Core Pointer")
+
+# end of user context

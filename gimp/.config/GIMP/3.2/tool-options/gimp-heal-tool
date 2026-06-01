@@ -1,0 +1,10 @@
+# GIMP gimp-heal-tool options
+
+(brush "Wilber")
+(dynamics "Pressure Size")
+(pattern "Leopard")
+(palette "Color History")
+(brush-size 800)
+(brush-spacing 1)
+
+# end of gimp-heal-tool options

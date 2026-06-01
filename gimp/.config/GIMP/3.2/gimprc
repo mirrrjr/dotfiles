@@ -1,0 +1,84 @@
+# GIMP gimprc
+# 
+# This is your personal gimprc file.  Any variable defined in this file takes
+# precedence over the value defined in the system-wide gimprc:
+# /etc/gimp/3.0/gimprc
+# Most values can be set within GIMP by changing some options in the
+# Preferences dialog.
+
+(prev-language "American English")
+(config-version "3.2.4")
+(layer-preview-size small)
+(import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
+(monitor-xresolution 102)
+(monitor-yresolution 103)
+(default-view
+    (show-menubar yes)
+    (show-statusbar no)
+    (show-rulers no)
+    (show-scrollbars no)
+    (show-selection yes)
+    (show-layer-boundary yes)
+    (show-canvas-boundary yes)
+    (show-guides yes)
+    (show-grid no)
+    (show-sample-points yes)
+    (snap-to-guides yes)
+    (snap-to-grid no)
+    (snap-to-canvas no)
+    (snap-to-path no)
+    (snap-to-bbox no)
+    (snap-to-equidistance no)
+    (padding-mode default)
+    (padding-color
+        (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0))
+    (padding-in-show-all no))
+(default-fullscreen-view
+    (show-menubar yes)
+    (show-statusbar no)
+    (show-rulers no)
+    (show-scrollbars no)
+    (show-selection yes)
+    (show-layer-boundary yes)
+    (show-canvas-boundary yes)
+    (show-guides yes)
+    (show-grid no)
+    (show-sample-points yes)
+    (snap-to-guides yes)
+    (snap-to-grid no)
+    (snap-to-canvas no)
+    (snap-to-path no)
+    (snap-to-bbox no)
+    (snap-to-equidistance no)
+    (padding-mode default)
+    (padding-color
+        (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0))
+    (padding-in-show-all no))
+(override-theme-icon-size yes)
+(custom-icon-size small)
+(font-relative-size 0.90000000000000002)
+(custom-title-bar yes)
+(fill-options
+    (style fg-color)
+    (custom-style solid-color)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10))
+(stroke-options
+    (style fg-color)
+    (custom-style solid-color)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10)
+    (method line)
+    (width 6)
+    (unit pixels)
+    (cap-style butt)
+    (join-style miter)
+    (miter-limit 10)
+    (dash-offset 0)
+    (dash-info 0)
+    (emulate-brush-dynamics no))
+
+
+# end of gimprc

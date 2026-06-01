@@ -1,0 +1,9 @@
+# GIMP gimp-path-tool options
+
+(brush "Wilber")
+(dynamics "Pressure Size")
+(pattern "Leopard")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+
+# end of gimp-path-tool options
