@@ -1,6 +1,6 @@
 /* Code comment style */
 .mtk3 {
-    font-family: 'Monaspace Radon', monospace !important;
+    font-family: 'JetBrainsMono Nerd Font Mono', monospace !important;
     font-style: italic !important;
     color: #008c7d !important;
 }
@@ -56,14 +56,14 @@
 /* File Explorer Item Label */
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
-    font-family: 'Geist Mono', monospace !important;
+    font-family: 'JetBrainsMono Nerd Font Mono', monospace !important;
     font-size: 14px !important;
     font-weight: 400 !important;
     color: #FFF !important;
 }
 
 .explorer-item-edited {
-    font-family: Geist Mono !important;
+    font-family: 'JetBrainsMono Nerd Font Mono' !important;
     font-size: 14px !important;
 }
 
@@ -156,7 +156,7 @@
 
 /* Search Label */
 .search-label {
-    font-family: 'Geist Mono' !important;
+    font-family: 'JetBrainsMono Nerd Font Mono' !important;
     font-size: 14px !important;
     color: #fff;
     display: block;
@@ -226,7 +226,7 @@
     padding: 16px !important;
     border: none !important;
     /* background-color: rgba(202, 25, 25, 0.4) !important; */
-    font-family: "Geist Mono" !important;
+    font-family: "JetBrainsMono Nerd Font Mono" !important;
     font-size: 16px !important;
     margin-bottom: 16px !important;
 }

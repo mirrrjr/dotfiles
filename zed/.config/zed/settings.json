@@ -1,5 +1,6 @@
 {
     // ── Appearance ──────────────────────────────────────────────────────────────
+    "cli_default_open_behavior": "new_window",
     "terminal": {
         "font_size": 16.0,
         "font_family": "JetBrainsMono Nerd Font Mono"
@@ -20,7 +21,7 @@
     "theme": {
         "mode": "dark",
         "light": "Ayu Light",
-        "dark": "Ayu Dark",
+        "dark": "Darker Horizon",
     },
     // "theme_overrides": {
     //     "Catppuccin Espresso (Blur)": {

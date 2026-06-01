@@ -41,6 +41,13 @@ vscode/.config/Code/User/prompts
 vscode/.config/Code/User/sync
 vscode/.config/Code/User/agent-sessions.code-workspace
 vscode/.config/Code/User/chatLanguageModels.json
+vscode/.config/Code/DIPS-wal
+vscode/.config/Code/Partitions/
+vscode/.config/Code/SharedStorage-wal
+vscode/.config/Code/User/mcp/
+vscode/.config/Code/code.lock
+vscode/.config/Code/languagepacks.json
+
 
 # VS Codium
 vscodium/.config/VSCodium/Backups

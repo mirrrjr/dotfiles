@@ -14,7 +14,7 @@
   "workbench.sideBar.location": "right",
   "workbench.navigationControl.enabled": false,
   "workbench.colorTheme": "1. DARKㅤㅤ(Lynx Theme)",
-  "workbench.preferredHighContrastColorTheme": "Horizon Bright Bold",
+  "workbench.preferredHighContrastColorTheme": "2. LIGHT ㅤ (Lynx Theme)",
   "workbench.iconTheme": "lynx-pro-gray",
   "workbench.productIconTheme": "material-product-icons",
   "material-icon-theme.folders.theme": "classic",
@@ -89,7 +89,7 @@
     "editor.defaultFormatter": "laravel.vscode-laravel",
   },
   "[blade]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
   },
   // ============================================
   // EMMET
@@ -215,40 +215,40 @@
   // ============================================
   // CUSTOM CSS (COMMENTED OUT)
   // ============================================
-  // "vscode_custom_css.imports": [
-  //     "file:///home/mirrr/.config/vscode/vscode-style.css",
-  //     "file:///home/mirrr/.config/vscode/vscode-script.js"
-  // ]
+  "vscode_custom_css.imports": [
+    "file:///home/mirjr/.config/Code/User/vscode-style.css",
+    "file:///home/mirjr/.config/Code/User/vscode-script.js",
+  ],
   // ============================================
   // BREADCRUMBS (COMMENTED OUT)
   // ============================================
   "breadcrumbs.enabled": false,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.symbolPath": "off",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell",
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe",
-      ],
-      "args": [],
-      "icon": "terminal-cmd",
-    },
-    "Git Bash": {
-      "source": "Git Bash",
-      "icon": "terminal-git-bash",
-      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
-      "args": ["--login", "-i"],
-    },
-    "Debian (WSL)": {
-      "path": "C:\\Windows\\System32\\wsl.exe",
-      "args": ["-d", "Debian"],
-    },
-  },
-  "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+  // "terminal.integrated.profiles.windows": {
+  //   "PowerShell": {
+  //     "source": "PowerShell",
+  //     "icon": "terminal-powershell",
+  //   },
+  //   "Command Prompt": {
+  //     "path": [
+  //       "${env:windir}\\Sysnative\\cmd.exe",
+  //       "${env:windir}\\System32\\cmd.exe",
+  //     ],
+  //     "args": [],
+  //     "icon": "terminal-cmd",
+  //   },
+  //   "Git Bash": {
+  //     "source": "Git Bash",
+  //     "icon": "terminal-git-bash",
+  //     "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+  //     "args": ["--login", "-i"],
+  //   },
+  //   "Debian (WSL)": {
+  //     "path": "C:\\Windows\\System32\\wsl.exe",
+  //     "args": ["-d", "Debian"],
+  //   },
+  // },
+  // "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
   "editor.unicodeHighlight.nonBasicASCII": false,
 }
