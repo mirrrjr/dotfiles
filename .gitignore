@@ -48,7 +48,6 @@ vscode/.config/Code/User/mcp/
 vscode/.config/Code/code.lock
 vscode/.config/Code/languagepacks.json
 
-
 # VS Codium
 vscodium/.config/VSCodium/Backups
 vscodium/.config/VSCodium/blob_storage
@@ -85,3 +84,23 @@ vscodium/.config/VSCodium/User/globalStorage
 vscodium/.config/VSCodium/User/History
 vscodium/.config/VSCodium/User/snippets
 vscodium/.config/VSCodium/User/workspaceStorage
+
+# GIMP 3.2
+# GIMP 3.2
+gimp/.config/GIMP/3.2/pluginrc
+gimp/.config/GIMP/3.2/devicerc
+gimp/.config/GIMP/3.2/sessionrc
+gimp/.config/GIMP/3.2/action-history
+gimp/.config/GIMP/3.2/tags.xml
+gimp/.config/GIMP/3.2/parasiterc
+gimp/.config/GIMP/3.2/profilerc
+
+gimp/.config/GIMP/3.2/backups/
+gimp/.config/GIMP/3.2/CrashLog/
+gimp/.config/GIMP/3.2/tmp/
+gimp/.config/GIMP/3.2/internal-data/
+gimp/.config/GIMP/3.2/modules/
+gimp/.config/GIMP/3.2/interpreters/
+gimp/.config/GIMP/3.2/environ/
+gimp/.config/GIMP/3.2/plug-in-settings/
+gimp/.config/GIMP/3.2/plug-ins/
