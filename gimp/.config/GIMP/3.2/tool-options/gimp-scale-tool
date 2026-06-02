@@ -1,4 +1,10 @@
 # GIMP gimp-scale-tool options
 
+(constrain-move yes)
+(constrain-scale no)
+(constrain-rotate yes)
+(constrain-shear no)
+(constrain-perspective yes)
+(cornersnap yes)
 
 # end of gimp-scale-tool options

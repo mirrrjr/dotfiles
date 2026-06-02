@@ -1,7 +1,9 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
+(tool "gimp-free-select-tool")
 (paint-info "gimp-paintbrush")
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\327Zz\77Sa\173\77\0\0\200\77" 0))
 (brush "Wilber")
 (dynamics "Pressure Size")
 (mybrush "100% Opaque")

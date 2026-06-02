@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "36260ef9ba920085",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d44842c6f153af0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee5b26af9bb96db1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a66711445e00cef",
+    "type": "split",
+    "children": [
+      {
+        "id": "711fb8114c7d00bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84387ed90c8445a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "52c8c230405aebc5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "10462d9a9d49c798",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5
+  },
+  "right": {
+    "id": "1245fbcd34662dda",
+    "type": "split",
+    "children": [
+      {
+        "id": "c040a9439a1597ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86a52ba5f213dc10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Languages/Russian/01 - Alifbo va fonetika.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01 - Alifbo va fonetika"
+            }
+          },
+          {
+            "id": "42943142c363949c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IT/Languages/JavaScript/04 - data types.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 04 - data types"
+            }
+          },
+          {
+            "id": "0327a87254e00678",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "44c9cde4a79e0e2a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IT/Languages/JavaScript/04 - data types.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 04 - data types"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "gnome-terminal-loader:Gnome Terminal": false,
+      "gnome-terminal-loader:main.py (Gnome Terminal)": false,
+      "markdown-importer:Open format converter": true,
+      "audio-recorder:Start/stop recording": false,
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": true,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "ee5b26af9bb96db1",
+  "lastOpenFiles": [
+    "readme.md",
+    "99-inbox/hello.md",
+    "01-code/languages/javascript/14-constructor-functions.md",
+    "99-inbox",
+    "01-code/languages/html/10-ilovalar.md",
+    "01-code/languages/javascript/01-variables.md",
+    "01-code/languages/html/00-index.md",
+    "01-code/languages/javascript/13-tagged-template-literals.md",
+    "01-code/languages/javascript/12-optional-chaining.md",
+    "01-code/languages/javascript/11-oddiy-va-chiziqli-funksiyalar.md",
+    "01-code/languages/javascript/10-operator-turlari.md",
+    "01-code/languages/javascript/09-type-coercion-va-type-conversion.md",
+    "01-code/languages/javascript/08-map-set-weakmap-weakset.md",
+    "01-code/languages/javascript/07-call-apply-bind.md",
+    "01-code/languages/javascript/06-this.md",
+    "01-code/languages/javascript/05-garbage-collection.md",
+    "01-code/languages/javascript/04-data-types.md",
+    "01-code/languages/javascript/03-temporal-dead-zone.md",
+    "01-code/languages/javascript/02-hoisting.md",
+    "hoisting.md",
+    "01-code/backend/database/02-postgresql.md",
+    "01-code/backend/database/01-mysql.md",
+    "01-code/backend/php/01-php-savollar.md",
+    "00-system/templates/lesson.md",
+    "00-system/templates/knowledge.md",
+    "00-system/templates/qa.md",
+    "01-code/languages/javascript/00-index.md",
+    "00-system/attachments/-5382323050093068807_121.jpg",
+    "02-biology",
+    "01-code/teaching",
+    "00-system/attachments/Pasted image 20260104142746.png",
+    "00-system/attachments/Pasted image 20260104143019.png",
+    "01-code/languages",
+    "01-code/backend/database",
+    "01-code/backend/php",
+    "01-code/backend",
+    "01-code",
+    "00-system/snippets",
+    "00-system/dashboards",
+    "Untitled.canvas",
+    "Pasted image 20260106154132.png",
+    "Pasted image 20260106154103.png",
+    "00-system/attachments/Pasted image 20260104170522.png",
+    "00-system/attachments/Pasted image 20260104165224.png",
+    "00-system/attachments/Pasted image 20260104163332.png",
+    "00-system/attachments/Pasted image 20260104161458.png",
+    "00-system/attachments/Pasted image 20260104160758.png",
+    "Labaratoriya/Universe.canvas",
+    "Untitled 1.canvas"
+  ]
+}

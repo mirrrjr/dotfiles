@@ -6,6 +6,7 @@
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
+(temp-path "/home/mirjr/Documents/gimp")
 (prev-language "American English")
 (config-version "3.2.4")
 (layer-preview-size small)

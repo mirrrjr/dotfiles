@@ -86,7 +86,6 @@ vscodium/.config/VSCodium/User/snippets
 vscodium/.config/VSCodium/User/workspaceStorage
 
 # GIMP 3.2
-# GIMP 3.2
 gimp/.config/GIMP/3.2/pluginrc
 gimp/.config/GIMP/3.2/devicerc
 gimp/.config/GIMP/3.2/sessionrc

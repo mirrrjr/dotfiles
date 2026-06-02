@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "vimMode": true,
+  "attachmentFolderPath": "00-system/attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "99-inbox",
+  "showUnsupportedFiles": true
+}
