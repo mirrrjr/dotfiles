@@ -1,8 +1,8 @@
 [
   "gnome-terminal-loader",
-  "templater-obsidian",
   "quickadd",
   "cmdr",
   "dataview",
-  "obsidian-linter"
+  "obsidian-linter",
+  "templater-obsidian"
 ]

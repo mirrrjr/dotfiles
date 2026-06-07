@@ -2,7 +2,7 @@
     {
         "context": "Workspace",
         "bindings": {
-            "shift shift": "file_finder::Toggle",
+            "space space": "file_finder::Toggle",
         },
     },
     {
@@ -26,8 +26,11 @@
     {
         "context": "ProjectPanel",
         "bindings": {
-            "%": "project_panel::NewFile",
-            // "d": "project_panel::Trash",
+            "a": "project_panel::NewFile",
+            "d": "project_panel::Trash",
+            "r": "project_panel::Rename",
+            "c": "project_panel::Copy",
+            "p": "project_panel::Paste",
             "alt-l": "workspace::ActivatePaneRight",
         },
     },

@@ -1,72 +1,72 @@
 {
-    // ── Appearance ──────────────────────────────────────────────────────────────
     "cli_default_open_behavior": "new_window",
     "terminal": {
         "font_size": 16.0,
-        "font_family": "JetBrainsMono Nerd Font Mono"
+        "font_family": "JetBrainsMono Nerd Font Mono",
     },
     "base_keymap": "VSCode",
     "sticky_scroll": {
-        "enabled": false
+        "enabled": false,
     },
     "mouse_wheel_zoom": true,
     "minimap": {
-        "show": "never"
+        "show": "never",
     },
     "max_tabs": 10,
-    "autosave": "off",
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 3000,
+        },
+    },
     "auto_indent_on_paste": true,
     "linked_edits": true,
     "use_on_type_format": true,
     "theme": {
         "mode": "dark",
         "light": "Ayu Light",
-        "dark": "Darker Horizon",
+        "dark": "Darker Horizon Bold",
     },
-    // "theme_overrides": {
-    //     "Catppuccin Espresso (Blur)": {
-    //         "background": "#000",
-    //         "title_bar.background": "#000",
-    //         "editor.background": "#000",
-    //         "panel.overlay_hover": "#333",
-    //         "syntax": {
-    //             "comment": {
-    //                 "font_style": "italic",
-    //             },
-    //             "comment.doc": {
-    //                 "font_style": "italic",
-    //             },
-    //         },
-    //     },
-    // },
+    "theme_overrides": {
+        "Darker Horizon Bold": {
+            "panel.focused_border": "#ff8800",
+            // "pane.focused_border": "#ff8800",
+            // "background": "#000",
+            // "title_bar.background": "#000",
+            // "editor.background": "#000",
+            // "panel.overlay_hover": "#333",
+            // "syntax": {
+            //     "comment": {
+            //         "font_style": "italic",
+            //     },
+            //     "comment.doc": {
+            //         "font_style": "italic",
+            //     },
+            // },
+        },
+    },
     "icon_theme": {
         "mode": "dark",
         "light": "Catppuccin Latte",
-        "dark": "Catppuccin Latte"
+        "dark": "Catppuccin Latte",
     },
     "ui_font_family": "JetBrainsMono Nerd Font Propo",
     "ui_font_size": 16,
 
-    // ── Editor ───────────────────────────────────────────────────────────────────
     "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_size": 16,
     "tab_size": 4,
     "vim_mode": true,
     "relative_line_numbers": "enabled",
     "cursor_shape": "bar",
-    "cursor_blink": false,
-    "selection_highlight": false,
+    "cursor_blink": true,
+    "selection_highlight": true,
     "drag_and_drop_selection": {
-        "enabled": false,
+        "enabled": true,
     },
     "seed_search_query_from_cursor": "never",
     "current_line_highlight": "none",
     "show_whitespaces": "none",
-    // "autosave": {
-    //     "after_delay": {
-    //         "milliseconds": 1000,
-    //     },
-    // },
+
     "git": {
         "git_gutter": "hide",
         "inline_blame": {
@@ -74,24 +74,33 @@
         },
     },
 
-    // ── UI Chrome ────────────────────────────────────────────────────────────────
     "title_bar": {
+        "show_user_picture": true,
+        "button_layout": "platform_default",
         "show_onboarding_banner": false,
         "show_project_items": false,
         "show_branch_name": false,
         "show_user_menu": false,
     },
+
     "toolbar": {
+        "breadcrumbs": false,
         "quick_actions": false,
+        "selections_menu": false,
+        "agent_review": false,
+        "code_actions": false,
     },
+
     "tab_bar": {
-        "show_tab_bar_buttons": false,
-        "show": false,
+        "show_tab_bar_buttons": true,
+        "show": true,
         "show_nav_history_buttons": false,
     },
+
     "status_bar": {
-        "experimental.show": false,
+        "experimental.show": true,
     },
+
     "scrollbar": {
         "show": "never",
         "cursors": false,
@@ -100,6 +109,14 @@
             "vertical": false,
         },
     },
+
+    "file_finder": {
+        "file_icons": true,
+        "include_channels": true,
+        "modal_max_width": "small",
+        "skip_focus_for_active_in_search": true,
+    },
+
     "project_panel": {
         "dock": "left",
         "default_width": 300,
@@ -115,6 +132,7 @@
             "show": "never",
         },
     },
+
     "gutter": {
         "min_line_number_digits": 0,
         "folds": false,
@@ -123,8 +141,8 @@
         "line_numbers": true,
     },
 
-    // ── AI / Agent ───────────────────────────────────────────────────────────────
-    "disable_ai": true,
+    "disable_ai": false,
+
     "agent": {
         "default_model": {
             "provider": "zed.dev",
@@ -142,12 +160,10 @@
         ],
     },
 
-    // ── Session ──────────────────────────────────────────────────────────────────
     "session": {
         "trust_all_worktrees": true,
     },
 
-    // ── Languages ────────────────────────────────────────────────────────────────
     "languages": {
         "TypeScript": {
             "auto_indent_on_paste": true,
@@ -159,6 +175,7 @@
                 "allowed": true,
             },
         },
+
         "JavaScript": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
@@ -168,24 +185,38 @@
                 "allowed": false,
             },
         },
+
+        "Vue.js": {
+            "formatter": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"],
+                },
+            },
+            "format_on_save": "on",
+        },
+
         "PHP": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
             "use_on_type_format": true,
             "tab_size": 4,
         },
+
         "Go": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
             "use_on_type_format": true,
             "tab_size": 4,
         },
+
         "Rust": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
             "use_on_type_format": true,
             "tab_size": 4,
         },
+
         "Markdown": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
@@ -196,6 +227,7 @@
             "formatter": "language_server",
         },
     },
+
     "lsp": {
         "vtsls": {
             "settings": {
