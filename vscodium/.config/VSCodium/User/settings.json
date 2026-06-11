@@ -13,8 +13,8 @@
   "workbench.activityBar.location": "bottom",
   "workbench.sideBar.location": "right",
   "workbench.navigationControl.enabled": false,
-  "workbench.colorTheme": "Horizon",
-  "workbench.preferredHighContrastColorTheme": "Horizon Bright Bold",
+  "workbench.colorTheme": "Moonfly",
+  "workbench.preferredHighContrastColorTheme": "Light Modern",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
   // "material-icon-theme.folders.theme": "classic",
@@ -86,10 +86,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
   "[blade]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
   // ============================================
   // EMMET
@@ -149,12 +149,12 @@
   // ZEN MODE
   // ============================================
   "zenMode.showTabs": "none",
-  "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.hideStatusBar": true,
   // ============================================
   // PROJECT MANAGER
   // ============================================
-  "projectManager.git.baseFolders": ["/home/mirrrjr/Documents/code/"],
+  "projectManager.git.baseFolders": ["/home/mirjr/Code"],
   "projectManager.sortList": "Recent",
   // ============================================
   // DATABASE CLIENT
@@ -164,10 +164,6 @@
   // OTHER
   // ============================================
   "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
-  "redhat.telemetry.enabled": true,
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml",
-  },
   "tailwind-fold.autoFold": true,
   "tailwind-fold.foldStyle": "ALL",
   "tailwind-fold.unfoldIfLineSelected": true,
@@ -210,16 +206,14 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*",
   },
-  "php.format.rules.arrayInitializersAlignKeyValuePairs": false,
   "chat.disableAIFeatures": true,
-  "intelliphp.inlineSuggestionsEnabled": false,
   // ============================================
   // CUSTOM CSS (COMMENTED OUT)
   // ============================================
-  // "vscode_custom_css.imports": [
-  //     "file:///home/mirrr/.config/vscode/vscode-style.css",
-  //     "file:///home/mirrr/.config/vscode/vscode-script.js"
-  // ]
+  "vscode_custom_css.imports": [
+    "file:////home/mirjr/.dotfiles/vscode/.config/Code/User/vscode-style.css",
+    "file:////home/mirjr/.dotfiles/vscode/.config/Code/User/vscode-script.js",
+  ],
   // ============================================
   // BREADCRUMBS (COMMENTED OUT)
   // ============================================
@@ -228,7 +222,4 @@
   "breadcrumbs.symbolPath": "off",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "git.openRepositoryInParentFolders": "always",
-  "[twig]": {
-    "editor.defaultFormatter": "mblode.twig-language-2",
-  },
 }

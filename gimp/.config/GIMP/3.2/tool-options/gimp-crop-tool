@@ -1,9 +1,9 @@
 # GIMP gimp-crop-tool options
 
-(aspect-denominator 286)
-(aspect-numerator 429)
+(aspect-denominator 669)
+(aspect-numerator 1053)
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\327Zz\77Sa\173\77\0\0\200\77" 0))
+    (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
 (pattern "Leopard")
 
 # end of gimp-crop-tool options

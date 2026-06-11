@@ -3,6 +3,8 @@
 # This file holds a list of recently used colors.
 
 (color-history
+    (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0)
+    (color "HSVA float" 16 "\0\0\0\0\33c\52\75D\340I\77\0\0\200\77" 0)
     (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0)
     (color "HSVA float" 16 "\0\0\0\0\327Zz\77Sa\173\77\0\0\200\77" 0)
     (color "R'G'B'A float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
