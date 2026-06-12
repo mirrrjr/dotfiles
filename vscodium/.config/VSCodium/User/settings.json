@@ -3,7 +3,7 @@
   // WINDOW & LAYOUT
   // ============================================
   "window.titleBarStyle": "custom",
-  "window.title": "${folderName}",
+  "window.title": "${activeEditorMedium}",
   "window.menuBarVisibility": "toggle",
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
@@ -214,7 +214,7 @@
   // ============================================
   // BREADCRUMBS (COMMENTED OUT)
   // ============================================
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.symbolPath": "off",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
