@@ -103,7 +103,7 @@
         "git_status": true,
     },
     "status_bar": {
-        "experimental.show": true,
+        "experimental.show": false,
     },
 
     "scrollbar": {
@@ -129,7 +129,7 @@
 
     "project_panel": {
         "dock": "right",
-        "default_width": 300,
+        "default_width": 250,
         "hide_root": true,
         "auto_fold_dirs": false,
         "starts_open": false,
@@ -148,7 +148,7 @@
         "folds": false,
         "runnables": false,
         "breakpoints": false,
-        "line_numbers": true,
+        "line_numbers": false,
     },
 
     "disable_ai": false,
@@ -160,12 +160,12 @@
         },
         "inline_alternatives": [
             {
-                "provider": "zed.dev",
-                "model": "gpt-4-mini",
+                "provider": "opencode",
+                "model": "free/nemotron-3-super-free",
             },
             {
-                "provider": "zed.dev",
-                "model": "gemini-3-flash",
+                "provider": "opencode",
+                "model": "free/nemotron-3-super-free",
             },
         ],
     },
@@ -178,7 +178,7 @@
         "TypeScript": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
-            "use_on_type_format": true,
+            "format_on_save": "on",
             "tab_size": 4,
             "formatter": "language_server",
             "prettier": {
@@ -189,7 +189,7 @@
         "JavaScript": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
-            "use_on_type_format": true,
+            "format_on_save": "on",
             "tab_size": 4,
             "prettier": {
                 "allowed": false,
@@ -210,30 +210,29 @@
             "language_servers": ["intelephense"],
             "auto_indent_on_paste": true,
             "linked_edits": true,
-            "use_on_type_format": true,
+            "format_on_save": "on",
             "tab_size": 4,
         },
 
         "Go": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
-            "use_on_type_format": true,
+            "format_on_save": "on",
             "tab_size": 4,
         },
 
         "Rust": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
-            "use_on_type_format": true,
+            "format_on_save": "on",
             "tab_size": 4,
         },
 
         "Markdown": {
             "auto_indent_on_paste": true,
             "linked_edits": true,
-            "use_on_type_format": true,
             "tab_size": 4,
-            "format_on_save": "off",
+            "format_on_save": "on",
             "colorize_brackets": true,
             "formatter": "language_server",
         },

@@ -12,6 +12,12 @@
         },
     },
     {
+        "context": "Editor && vim_mode == insert",
+        "bindings": {
+            "ctrl-s": "workspace::Save",
+        },
+    },
+    {
         "context": "Editor",
         "bindings": {
             "ctrl-w": "pane::CloseActiveItem",

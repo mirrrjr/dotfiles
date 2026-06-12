@@ -54,6 +54,7 @@ vscodium/.config/VSCodium/blob_storage
 vscodium/.config/VSCodium/Cache
 vscodium/.config/VSCodium/CachedConfigurations
 vscodium/.config/VSCodium/CachedData
+vscodium/.config/VSCodium/CachedExtensionVSIXs
 vscodium/.config/VSCodium/CachedProfilesData
 vscodium/.config/VSCodium/Code Cache
 vscodium/.config/VSCodium/Crashpad
