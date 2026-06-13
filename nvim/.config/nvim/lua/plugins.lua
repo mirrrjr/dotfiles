@@ -1,15 +1,18 @@
 -- Paketlarni yuklash
 vim.pack.add({
-		{ src = "https://github.com/bluz71/vim-moonfly-colors", name = "moonfly" },
-		{ src = "https://github.com/folke/noice.nvim" },
-		{ src = "https://github.com/rcarriga/nvim-notify" },
-		{ src = "https://github.com/nvim-mini/mini.statusline" },
-		{ src = "https://github.com/MunifTanjim/nui.nvim" },
-		{ src = "https://github.com/neovim/nvim-lspconfig" },
-		{ src = "https://github.com/chomosuke/typst-preview.nvim" },
-		{ src = "https://github.com/stevearc/oil.nvim" },
-		{ src = "https://github.com/nvim-mini/mini.pick" },
-		{ src = "https://github.com/stevearc/conform.nvim" },
+	{ src = "https://github.com/bluz71/vim-moonfly-colors", name = "moonfly" },
+	{ src = "https://github.com/folke/noice.nvim" },
+	{ src = "https://github.com/rcarriga/nvim-notify" },
+	{ src = "https://github.com/nvim-mini/mini.statusline" },
+	{ src = "https://github.com/MunifTanjim/nui.nvim" },
+	{ src = "https://github.com/neovim/nvim-lspconfig" },
+	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
+	{ src = "https://github.com/stevearc/oil.nvim" },
+	{ src = "https://github.com/nvim-mini/mini.pick" },
+	{ src = "https://github.com/stevearc/conform.nvim" },
+	{ src = "https://github.com/windwp/nvim-autopairs" },
+	{ src = "https://github.com/nvim-telescope/telescope.nvim" },
+	{ src = "https://github.com/nvim-lua/plenary.nvim" },
 })
 
 -- Color theme
@@ -26,7 +29,28 @@ require("noice").setup({
 
 -- Mini statusline & pick
 require("mini.statusline").setup()
-require("mini.pick").setup()
+require("mini.pick").setup({
+	options = {
+		use_cache = true,
+	},
+})
+
+-- Telescope
+require("telescope").setup({
+	defaults = {
+		file_ignore_patterns = {
+			"node_modules",
+			".git/",
+			"vendor/",
+		},
+
+		layout_config = {
+			prompt_position = "top",
+		},
+
+		sorting_strategy = "ascending",
+	},
+})
 
 -- Oil.nvim sozlamalari
 require("oil").setup({
@@ -36,20 +60,29 @@ require("oil").setup({
 	-- Qolgan barcha oil sozlamalarini shu yerga paste qilishingiz mumkin
 })
 
+-- Conform
 require("conform").setup({
-		formatters_by_ft = {
-				javascript      = { "prettier" },
-				typescript      = { "prettier" },
-				javascriptreact = { "prettier" },
-				typescriptreact = { "prettier" },
-				php             = { "pint" },
-				html            = { "prettier" },
-				css             = { "prettier" },
-				json            = { "prettier" },
-		},
-		format_on_save = {
-				async = false,
-				timeout_ms = 500,
-				lsp_fallback = true,
-		},
+	formatters_by_ft = {
+		sh = { "shfmt" },
+		bash = { "shfmt" },
+		zsh = { "shfmt" },
+		javascript = { "prettier" },
+		typescript = { "prettier" },
+		javascriptreact = { "prettier" },
+		typescriptreact = { "prettier" },
+		php = { "pint" },
+		blade = { "blade-formatter" },
+		html = { "prettier" },
+		css = { "prettier" },
+		json = { "prettier" },
+		lua = { "stylua" },
+	},
+	format_on_save = {
+		async = false,
+		timeout_ms = 500,
+		lsp_fallback = true,
+	},
 })
+
+-- Autopairs
+require("nvim-autopairs").setup({})

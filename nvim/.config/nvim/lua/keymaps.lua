@@ -2,23 +2,32 @@ local opts = { noremap = true, silent = true }
 local key = vim.keymap
 
 -- Umumiy
-key.set('n', '<leader>o', ':update<CR> :source<CR>')
+key.set("n", "<leader>o", ":update<CR> :source<CR>")
 key.set("i", "<C-s>", "<Esc>:w<CR>", opts)
 key.set("n", "<C-s>", ":w<CR>", opts)
 key.set("n", "<C-q>", "<cmd> q <CR>", opts)
 -- key.set("n", "<leader>lf", vim.lsp.buf.format)
 key.set("n", "<leader>lf", function()
-		require("conform").format({ async = true })
+	require("conform").format({ async = true })
 end)
 
 -- Plaginlar uchun (Pick, Oil)
-key.set("n", "<leader>f", ":Pick files<CR>")
+key.set("n", "<leader>ff", function()
+	MiniPick.builtin.files(nil, {
+		tool = "rg",
+	})
+end)
 key.set("n", "<leader>H", ":Pick help<CR>")
 key.set("n", "-", ":Oil<CR>")
 
+-- Telescope
+key.set("n", "<leader>fg", ":Telescope find_files<CR>", { desc = "Live Grep" })
+key.set("n", "<leader>fb", builtin.buffers, { desc = "Buffers" })
+key.set("n", "<leader>fh", builtin.help_tags, { desc = "Help" })
+
 -- Clipboard
-key.set({"n", "v", "x"}, "<leader>y", '"+y<CR>')
-key.set({"n", "v", "x"}, "<leader>d", '"+d<CR>')
+key.set({ "n", "v", "x" }, "<leader>y", '"+y<CR>')
+key.set({ "n", "v", "x" }, "<leader>d", '"+d<CR>')
 
 -- Window management
 key.set("n", "<leader>v", "<C-w>v", opts)
