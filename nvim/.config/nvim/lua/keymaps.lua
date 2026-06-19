@@ -21,9 +21,9 @@ key.set("n", "<leader>H", ":Pick help<CR>")
 key.set("n", "-", ":Oil<CR>")
 
 -- Telescope
-key.set("n", "<leader>fg", ":Telescope find_files<CR>", { desc = "Live Grep" })
-key.set("n", "<leader>fb", builtin.buffers, { desc = "Buffers" })
-key.set("n", "<leader>fh", builtin.help_tags, { desc = "Help" })
+key.set("n", ";;", ":Telescope find_files<CR>", { desc = "Live Grep" })
+key.set("n", "<leader>fb", ":Telescope buffers<CR>", { desc = "Buffers" })
+key.set("n", "<leader>fh", ":Telescope help_tags<CR>", { desc = "Help" })
 
 -- Clipboard
 key.set({ "n", "v", "x" }, "<leader>y", '"+y<CR>')

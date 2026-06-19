@@ -9,12 +9,13 @@ has_command() {
 }
 
 install_npm_formatters() {
-	echo "===> Installing prettier and blade-formatter..."
+	echo "===> Installing prettier, blade-formatter, sql-formatter..."
 
-	npm install -g prettier blade-formatter
+	npm install -g prettier blade-formatter sql-formatter
 
 	echo "✓ prettier installed"
 	echo "✓ blade-formatter installed"
+	echo "✓ sql-formatter installed"
 }
 
 install_pint() {
@@ -54,9 +55,40 @@ install_shfmt() {
 	echo "✓ shfmt installed"
 }
 
+install_gofumpt() {
+	echo "===> Installing gofumpt..."
+
+	if has_command go; then
+		go install mvdan.cc/gofumpt@latest
+		echo "✓ gofumpt installed"
+		echo "Make sure $(go env GOPATH)/bin is in PATH"
+	else
+		echo "✗ Go not found"
+		echo "Install Go: https://go.dev/doc/install"
+	fi
+}
+
+install_ruff() {
+	echo "===> Installing ruff..."
+
+	if has_command pacman; then
+		sudo pacman -S --needed ruff
+	elif has_command pip; then
+		pip install --break-system-packages ruff
+	elif has_command pip3; then
+		pip3 install --break-system-packages ruff
+	else
+		echo "✗ Neither pacman nor pip found"
+		echo "Install Python: https://www.python.org/downloads/"
+		return
+	fi
+
+	echo "✓ ruff installed"
+}
+
 echo
 
-# npm tools
+# npm tools (prettier, blade-formatter, sql-formatter)
 if has_command npm; then
 	install_npm_formatters
 else
@@ -86,15 +118,24 @@ fi
 # shfmt
 install_shfmt
 
+# gofumpt
+install_gofumpt
+
+# ruff
+install_ruff
+
 echo
 echo "===> Installed versions"
 echo
 
-has_command prettier && prettier --version
+has_command prettier && prettier --version || true
 has_command blade-formatter && blade-formatter --version || true
+has_command sql-formatter && sql-formatter --version || true
 has_command stylua && stylua --version || true
 has_command shfmt && shfmt --version || true
 has_command pint && pint --version || true
+has_command gofumpt && gofumpt --version || true
+has_command ruff && ruff --version || true
 
 echo
 echo "Done."

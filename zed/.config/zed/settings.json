@@ -26,11 +26,11 @@
         "show": "never",
     },
     "max_tabs": 10,
-    "autosave": {
-        "after_delay": {
-            "milliseconds": 3000,
-        },
-    },
+    // "autosave": {
+    //     "after_delay": {
+    //         "milliseconds": 3000,
+    //     },
+    // },
     "auto_indent_on_paste": true,
     "linked_edits": true,
     "format_on_save": "on",
@@ -50,7 +50,7 @@
         "dark": "Catppuccin Latte",
     },
     "ui_font_family": "JetBrainsMono Nerd Font Propo",
-    "ui_font_size": 18,
+    "ui_font_size": 16,
 
     "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_size": 16,
@@ -97,7 +97,7 @@
         "show_nav_history_buttons": false,
     },
     "tabs": {
-        "file_icons": true,
+        "file_icons": false,
         "show_diagnostics": "all",
         "show_close_button": "hover",
         "git_status": true,

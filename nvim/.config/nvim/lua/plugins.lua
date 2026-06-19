@@ -1,6 +1,8 @@
 -- Paketlarni yuklash
 vim.pack.add({
 	{ src = "https://github.com/bluz71/vim-moonfly-colors", name = "moonfly" },
+	{ src = "https://github.com/folke/tokyonight.nvim", name = "tokyonight" },
+	{ src = "https://github.com/nyoom-engineering/oxocarbon.nvim", name = "oxocarbon" },
 	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/rcarriga/nvim-notify" },
 	{ src = "https://github.com/nvim-mini/mini.statusline" },
@@ -16,6 +18,7 @@ vim.pack.add({
 })
 
 -- Color theme
+vim.opt.background = "dark"
 vim.cmd([[colorscheme moonfly]])
 
 -- Noice & Notify
@@ -76,6 +79,9 @@ require("conform").setup({
 		css = { "prettier" },
 		json = { "prettier" },
 		lua = { "stylua" },
+		go = { "gofumpt" }, -- gofmt dan kuchliroq
+		python = { "ruff_format" }, -- black dan tezroq, hamma narsa bir tool
+		sql = { "sqlfmt" },
 	},
 	format_on_save = {
 		async = false,
