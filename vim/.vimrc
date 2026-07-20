@@ -35,6 +35,24 @@ set hlsearch              " qidiruv natijasini highlight
 set incsearch             " yozayotganda qidirish
 
 " Clipboard
+if has('clipboard_provider')
+  if executable('wl-copy') && executable('wl-paste')
+    let g:clipboard = {
+          \ 'name': 'wl-clipboard',
+          \ 'copy': {'+': 'wl-copy', '*': 'wl-copy'},
+          \ 'paste': {'+': 'wl-paste -n', '*': 'wl-paste -n'},
+          \ 'cache_enabled': 0,
+          \ }
+  elseif executable('xclip')
+    let g:clipboard = {
+          \ 'name': 'xclip',
+          \ 'copy': {'+': 'xclip -selection clipboard', '*': 'xclip -selection clipboard'},
+          \ 'paste': {'+': 'xclip -selection clipboard -o', '*': 'xclip -selection clipboard -o'},
+          \ 'cache_enabled': 0,
+          \ }
+  endif
+endif
+
 set clipboard=unnamedplus " tizim clipboard
 
 " Boshqa

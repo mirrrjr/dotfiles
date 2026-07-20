@@ -1,12 +1,15 @@
 # GIMP gimp-heal-tool options
 
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
-(brush "Wilber")
-(dynamics "Pressure Size")
-(pattern "Leopard")
+    (color "R'G'B'A u8" 4 "\13\15\14\377" 0))
+(brush "Standard")
+(dynamics "Standard dynamics")
+(pattern "Standard")
 (palette "Color History")
-(brush-size 800)
-(brush-spacing 1)
+(brush-size 3)
+(brush-spacing 0.20000000000000001)
+(brush-hardness 0.5)
+(dynamics-enabled no)
+(fade-length 110)
 
 # end of gimp-heal-tool options

@@ -1,10 +1,47 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "89485cc7-274d-4024-b12f-110552c58c4a",
+      "name": "Quick note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "00-system/templates/quick note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD HH-mm}} - {{VALUE}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "00-system/inbox"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": false,
+        "linkType": "link"
+      },
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "00-system/templates",
   "announceUpdates": "major",
   "version": "2.12.3",
   "globalVariables": {},

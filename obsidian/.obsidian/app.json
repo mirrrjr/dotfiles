@@ -1,10 +1,13 @@
 {
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
   "spellcheck": false,
   "vimMode": true,
   "attachmentFolderPath": "00-system/attachments",
   "newFileLocation": "folder",
   "newFileFolderPath": "99-inbox",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "readableLineLength": true
 }

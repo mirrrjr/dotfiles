@@ -1,9 +1,10 @@
 # GIMP gimp-ink-tool options
 
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
-(pattern "Leopard")
+    (color "R'G'B'A u8" 4 "\13\15\14\377" 0))
+(pattern "Standard")
 (brush-size 51)
+(brush-spacing 0.20000000000000001)
 (brush-hardness 0.5)
 
 # end of gimp-ink-tool options

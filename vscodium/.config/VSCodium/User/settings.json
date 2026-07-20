@@ -143,7 +143,7 @@
   // EXTENSIONS
   // ============================================
   "update.mode": "none",
-  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.autoUpdate": "on",
   "extensions.ignoreRecommendations": true,
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
@@ -250,4 +250,7 @@
   "window.commandCenter": false,
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.browser.showInTitleBar": false,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  },
 }

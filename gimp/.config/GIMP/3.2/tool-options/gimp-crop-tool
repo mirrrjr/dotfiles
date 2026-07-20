@@ -1,9 +1,12 @@
 # GIMP gimp-crop-tool options
 
-(aspect-denominator 669)
-(aspect-numerator 1053)
+(aspect-numerator 3)
+(fixed-rule-active yes)
+(overridden-fixed-aspect yes)
 (foreground
-    (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0))
-(pattern "Leopard")
+    (color "R'G'B'A u8" 4 "\13\15\14\377" 0))
+(pattern "Standard")
+(highlight-opacity 0.72499999999999998)
+(delete-pixels yes)
 
 # end of gimp-crop-tool options

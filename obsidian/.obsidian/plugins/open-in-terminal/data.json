@@ -1,0 +1,14 @@
+{
+  "terminalApp": {
+    "linux": "alacritty"
+  },
+  "enableClaude": false,
+  "enableCodex": true,
+  "enableCursor": false,
+  "enableGemini": false,
+  "enableOpencode": true,
+  "enableWslOnWindows": false,
+  "enableGitCommitPush": true,
+  "enableGitPull": true,
+  "defaultCommitMessage": "update"
+}
