@@ -1,6 +1,0 @@
-# GIMP gimp-align-tool options
-
-(align-reference selection)
-(align-paths yes)
-
-# end of gimp-align-tool options

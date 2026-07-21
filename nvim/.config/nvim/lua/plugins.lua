@@ -73,6 +73,7 @@ require("conform").setup({
 		typescript = { "prettier" },
 		javascriptreact = { "prettier" },
 		typescriptreact = { "prettier" },
+		rust = { "rustfmt" },
 		php = { "pint" },
 		blade = { "blade-formatter" },
 		html = { "prettier" },
