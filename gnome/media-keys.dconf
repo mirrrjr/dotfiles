@@ -1,0 +1,25 @@
+[/]
+control-center=['<Shift><Super>s']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+reboot=['<Shift><Super>r']
+shutdown=['<Shift><Super>p']
+
+[custom-keybindings/custom0]
+binding='<Super>b'
+command='/usr/bin/zen-browser'
+name='Zen-browser'
+
+[custom-keybindings/custom1]
+binding='<Super>Return'
+command='/usr/bin/alacritty'
+name='Terminal'
+
+[custom-keybindings/custom2]
+binding='<Super>e'
+command='/usr/bin/nautilus'
+name='File expoler'
+
+[custom-keybindings/custom3]
+binding='<Shift><Super>b'
+command='/usr/bin/epiphany'
+name='Web'
