@@ -15,14 +15,14 @@ config.keys = {
 	},
 }
 
-config.font_size = 10
+config.font_size = 12
 config.font = wezterm.font("JetBrains Mono", { weight = "Regular", italic = false })
 config.color_scheme = "Firefly Traditional"
 config.window_decorations = "NONE"
 config.use_fancy_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
 config.hide_mouse_cursor_when_typing = true
-config.default_cursor_style = "BlinkingBlock"
+config.default_cursor_style = "SteadyBlock"
 config.window_padding = {
 	left = 0,
 	top = 0,
@@ -32,8 +32,6 @@ config.window_padding = {
 
 config.line_height = 0.90
 config.cell_width = 1.0
-
-config.font_size = 10.0
 
 config.window_decorations = "RESIZE"
 config.enable_tab_bar = false
